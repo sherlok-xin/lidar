@@ -1,0 +1,87 @@
+method: OPDF-V1-B
+version: 0.1.0
+threshold_semantics: debugging heuristics; no GT calibration or optimality
+ground:
+  seed: 712
+  cell_size_m: 1.0
+  lower_quantile: 0.15
+  min_cell_points: 3
+  seed_z_min_m: -4.0
+  seed_z_max_m: -0.3
+  min_range_m: 1.0
+  max_fit_range_m: 45.0
+  min_candidates: 24
+  min_quadrants: 3
+  min_radial_span_m: 6.0
+  max_fit_points: 4000
+  ransac_trials: 72
+  inlier_residual_m: 0.12
+  min_inlier_ratio: 0.55
+  max_slope: 0.35
+  max_median_residual_m: 0.08
+  max_near_far_median_residual_m: 0.1
+  ground_below_m: 0.1
+  ground_above_m: 0.035
+  low_object_height_m: 0.4
+  near_ground_height_m: 0.45
+  support_range_margin_m: 2.0
+optical:
+  column_radius: 2
+  phase_radius: 1
+  min_neighbors: 4
+  range_tolerance_m: 1.0
+  range_tolerance_ratio: 0.08
+  mad_floor: 1.0
+  weak_z_scale: 1.5
+geometry:
+  phase_order_trusted: true
+  min_phase_samples: 10
+  max_adjacent_phase_gap_deg: 4.0
+  max_phase_mad_deg: 0.15
+  max_column_gap_deg: 0.8
+  scan_column_radius: 2
+  scan_min_neighbors: 4
+  surface_depth_m: 0.18
+  surface_depth_ratio: 0.012
+  far_gap_m: 1.0
+  min_search_radius_m: 0.18
+  radius_scale: 0.014
+  max_search_radius_m: 0.9
+  knn: 16
+  pca_min_neighbors: 5
+  batch_size: 4096
+  workers: 2
+  min_eigenvalue_extent_m2: 1.0e-07
+  line_protect_threshold: 0.65
+  edge_min_surface_score: 0.15
+  edge_min_discontinuity_score: 0.35
+decision:
+  entity_scan_surface_min: 0.65
+  entity_spatial_surface_min: 0.6
+  aerosol_optical_min: 0.55
+  aerosol_scan_discontinuity_min: 0.65
+  aerosol_spatial_diffuse_min: 0.45
+  require_reliable_ground_for_aerosol: true
+temporal:
+  enabled: false
+visualization:
+  roi:
+  - -30
+  - 50
+  - -30
+  - 30
+  - -4
+  - 8
+  max_points: 30000
+  view:
+    version: 1
+    projection: perspective
+    target:
+    - 8
+    - 0
+    - -0.2
+    distance: 65
+    azimuth_deg: -65
+    elevation_deg: 22
+    fov_deg: 45
+    up_axis: z

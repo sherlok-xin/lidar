@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE",
+  "manifest_path": "/home/xin/lidar/opdf_v1/manifest.json",
+  "actual_bytes_read": 44723210,
+  "chunk_payload_bytes_read": 44546992,
+  "elapsed_seconds": 0.17643631098326296,
+  "frames": 9
+}

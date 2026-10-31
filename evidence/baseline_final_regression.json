@@ -1,0 +1,59 @@
+{
+  "comparison": "same9 original frames, diagnostic additions only; no accuracy claim",
+  "frames": [
+    {
+      "key": "early_seq245616",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "early_seq245617",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "early_seq245618",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "late_seq246076",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "late_seq246077",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "late_seq246078",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "middle_seq245846",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "middle_seq245847",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    },
+    {
+      "key": "middle_seq245848",
+      "labels_changed": 0,
+      "reasons_changed": 0,
+      "source_slot_equal": true
+    }
+  ]
+}

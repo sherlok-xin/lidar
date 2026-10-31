@@ -1,0 +1,1 @@
+{"status": "OK", "metadata": {"raw_message_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "frame_id": "fixture", "header_stamp_ns": 1234000000000}, "diagnostics": {"timings_ms": {"fixture": 1.2}}}

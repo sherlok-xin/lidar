@@ -1,0 +1,20 @@
+test_coverage_holes_not_used_as_neighbor_observations (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_duplicate_point_pca_is_unavailable_not_dense_solid_or_aerosol (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_each_required_evidence_is_needed_for_aerosol (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_edge_and_vegetation_ambiguity_mask_protects_against_aerosol_vote (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_geometry_unavailable_keeps_unknown_even_when_intensity_is_weak (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_ground_coverage_failure_never_hard_ground (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_ground_seed_and_pca_batching_are_deterministic (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_low_intensity_solid_shell_not_aerosol (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_low_protrusion_survives_even_if_material_features_vote_aerosol (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_missing_intensity_does_not_make_valid_xyz_invalid (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_nan_inf_empty_and_all_invalid_preserve_slot_contract (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_no_seam_wrap_and_reduced_delivered_width (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_real_depth_edge_generates_protection (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_relative_dim_outlier_still_cannot_override_solid_geometry (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+test_steep_surface_rejected_as_flat_ground (test_algorithm_safety.AlgorithmSafetyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.253s
+
+OK

@@ -1,0 +1,17 @@
+test_bad_stride_rejected (test_io_schema.IORegressionTests) ... ok
+test_big_endian_values_nan_payload_and_raw_bytes (test_io_schema.IORegressionTests) ... ok
+test_cache_hash_and_provenance (test_io_schema.IORegressionTests) ... ok
+test_completely_empty_no_field_message (test_io_schema.IORegressionTests) ... ok
+test_empty_width_has_no_fabricated_points (test_io_schema.IORegressionTests) ... ok
+test_image_shape_and_phase_permutation_validation (test_io_schema.IORegressionTests) ... ok
+test_read_budget_stops_before_extra_read (test_io_schema.IORegressionTests) ... ok
+test_reduced_width_1729_default_frozen_mapping_exact_roundtrip (test_io_schema.IORegressionTests) ... ok
+test_row_padding_preserved_and_never_becomes_points (test_io_schema.IORegressionTests) ... ok
+test_truncated_message_and_trailing_bytes_are_rejected (test_io_schema.IORegressionTests) ... ok
+test_unsafe_field_bounds_overlap_duplicate_and_type (test_io_schema.IORegressionTests) ... ok
+test_wrong_height_marks_mapping_unavailable (test_io_schema.IORegressionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.321s
+
+OK

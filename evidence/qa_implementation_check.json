@@ -1,0 +1,220 @@
+{
+  "date_local": "2026-10-31",
+  "one_original_payload_bytes_read": 4608113,
+  "bag_fingerprint_head_bytes_read": 65536,
+  "source_bag": "/home/xin/lidar/data/2026-09-17-15-14-07_1.bag",
+  "source_message_offset": 1147135707,
+  "source_message_sha256": "23bf647a6131d831ddda2d402edad1b8a44f6ef017f38ef1a1969dd40706651a",
+  "original_equals_exact_cache": true,
+  "independent_original_decode": {
+    "seq": 245847,
+    "height": 80,
+    "width": 1800,
+    "finite_xyz": 104479,
+    "fields": [
+      {
+        "name": "x",
+        "offset": 0,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "y",
+        "offset": 4,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "z",
+        "offset": 8,
+        "datatype": 7,
+        "count": 1
+      },
+      {
+        "name": "intensity",
+        "offset": 16,
+        "datatype": 7,
+        "count": 1
+      }
+    ]
+  },
+  "cache_rerun": {
+    "frame": "middle_seq245847",
+    "elapsed_seconds": 0.9635135579737835,
+    "equality": {
+      "labels": true,
+      "reason_code": true,
+      "raw_slot_id": true,
+      "score_e": true,
+      "score_a": true,
+      "available_e": true,
+      "available_a": true
+    },
+    "status": "OK"
+  },
+  "all9_behavior_counts": {
+    "slots": 1296000,
+    "valid": 833106,
+    "INVALID": 462894,
+    "E": 96183,
+    "A": 82,
+    "U": 532919,
+    "G": 203922,
+    "independent_gt": false
+  },
+  "all9_per_frame": [
+    {
+      "frame": "early_seq245616",
+      "slots": 144000,
+      "valid": 83316,
+      "counts": [
+        60684,
+        8241,
+        5,
+        53100,
+        21970
+      ]
+    },
+    {
+      "frame": "early_seq245617",
+      "slots": 144000,
+      "valid": 83040,
+      "counts": [
+        60960,
+        8248,
+        6,
+        53608,
+        21178
+      ]
+    },
+    {
+      "frame": "early_seq245618",
+      "slots": 144000,
+      "valid": 82858,
+      "counts": [
+        61142,
+        8067,
+        3,
+        53446,
+        21342
+      ]
+    },
+    {
+      "frame": "late_seq246076",
+      "slots": 144000,
+      "valid": 90589,
+      "counts": [
+        53411,
+        10054,
+        10,
+        59230,
+        21295
+      ]
+    },
+    {
+      "frame": "late_seq246077",
+      "slots": 144000,
+      "valid": 90163,
+      "counts": [
+        53837,
+        10040,
+        4,
+        59835,
+        20284
+      ]
+    },
+    {
+      "frame": "late_seq246078",
+      "slots": 144000,
+      "valid": 89422,
+      "counts": [
+        54578,
+        9820,
+        2,
+        56223,
+        23377
+      ]
+    },
+    {
+      "frame": "middle_seq245846",
+      "slots": 144000,
+      "valid": 104757,
+      "counts": [
+        39243,
+        13709,
+        14,
+        63833,
+        27201
+      ]
+    },
+    {
+      "frame": "middle_seq245847",
+      "slots": 144000,
+      "valid": 104479,
+      "counts": [
+        39521,
+        14037,
+        11,
+        70455,
+        19976
+      ]
+    },
+    {
+      "frame": "middle_seq245848",
+      "slots": 144000,
+      "valid": 104482,
+      "counts": [
+        39518,
+        13967,
+        27,
+        63189,
+        27299
+      ]
+    }
+  ],
+  "real_cases": [
+    {
+      "name": "aerosol_surface_ambiguity",
+      "full_slot_count": 2624,
+      "aligned_feature_count": 48,
+      "display_selected_count": 2624,
+      "human_fields_unfilled": true,
+      "camera_matches": true
+    },
+    {
+      "name": "near_ground_rough_vegetation_candidate",
+      "full_slot_count": 4096,
+      "aligned_feature_count": 48,
+      "display_selected_count": 4096,
+      "human_fields_unfilled": true,
+      "camera_matches": true
+    },
+    {
+      "name": "vehicle_structure_candidate",
+      "full_slot_count": 20532,
+      "aligned_feature_count": 48,
+      "display_selected_count": 20532,
+      "human_fields_unfilled": true,
+      "camera_matches": true
+    }
+  ],
+  "real_blind_case": {
+    "path": "evidence/qa_blind_real_case",
+    "all4_exact_slots_exported": true,
+    "display_cap": 2,
+    "no_label_score_reason_payload": true
+  },
+  "bag_size_mtime_unchanged": true,
+  "production_nodes_started": false,
+  "training_executed": false,
+  "all_checks_pass": true,
+  "visual_inspection": {
+    "png_cases": [
+      "vehicle_structure_candidate",
+      "aerosol_surface_ambiguity",
+      "near_ground_rough_vegetation_candidate"
+    ],
+    "actual_chrome_screenshot": "evidence/qa_browser.png",
+    "interpretation": "shared perspective/crop check only, not human independent material labels"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "review",
+  "source_npz_sha256": "d5c7296cb6c6e74b1c9e7fae2ede8e81827e3a72ad62c66b97e23219fd01f206",
+  "exact_raw_slot_ids_sha256": "fb23ce96b8d9614c60174a2e30d763bf8998b223becdd23def1b266b6bafedda",
+  "reviewer_id": null,
+  "confidence": null,
+  "human_label": null,
+  "note": null,
+  "status": "PENDING_HUMAN_REVIEW",
+  "scope": "selected ROI, not all frame; confidence is human self-report, not calibrated",
+  "independent_reference_certified": false
+}

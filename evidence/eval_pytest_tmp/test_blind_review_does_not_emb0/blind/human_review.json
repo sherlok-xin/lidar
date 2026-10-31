@@ -1,0 +1,12 @@
+{
+  "case_id": "blind",
+  "source_npz_sha256": "d5c7296cb6c6e74b1c9e7fae2ede8e81827e3a72ad62c66b97e23219fd01f206",
+  "exact_raw_slot_ids_sha256": "bd0459f0c6673863b84c0158c1af02cb8ce4502c709e7751212ab5fd5d423f5e",
+  "reviewer_id": null,
+  "confidence": null,
+  "human_label": null,
+  "note": null,
+  "status": "PENDING_HUMAN_REVIEW",
+  "scope": "selected ROI, not all frame; confidence is human self-report, not calibrated",
+  "independent_reference_certified": false
+}

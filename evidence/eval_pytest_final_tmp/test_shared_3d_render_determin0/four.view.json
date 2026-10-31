@@ -1,0 +1,39 @@
+{
+  "output_png": "/home/xin/lidar/opdf_v1/evidence/eval_pytest_final_tmp/test_shared_3d_render_determin0/four.png",
+  "output_html": "/home/xin/lidar/opdf_v1/evidence/eval_pytest_final_tmp/test_shared_3d_render_determin0/four.html",
+  "camera": {
+    "version": 1,
+    "projection": "perspective",
+    "target": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "distance": 10.0,
+    "azimuth_deg": -50.0,
+    "elevation_deg": 25.0,
+    "fov_deg": 45.0,
+    "up_axis": "z"
+  },
+  "roi": null,
+  "finite_roi_count": 4,
+  "selected_count": 3,
+  "selected_raw_slot_ids": [
+    3,
+    9,
+    80
+  ],
+  "selected_slot_sha256": "9fd4ab44b82c51a279f6c3427d11a06242676e7f2a4d255c4d58432ce1a63a87",
+  "panel_counts": {
+    "RAW": 3,
+    "LABELS": 3,
+    "A_ONLY": 1,
+    "E_U": 1
+  },
+  "raw_color_mode": "source_intensity_display_percentiles_only",
+  "raw_intensity_display_bounds": [
+    1.02,
+    2.98
+  ],
+  "status": "heuristic_candidates_not_ground_truth"
+}

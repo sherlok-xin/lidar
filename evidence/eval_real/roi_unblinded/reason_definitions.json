@@ -1,0 +1,106 @@
+{
+  "ground": {
+    "module": "ground_lite",
+    "status": "OK",
+    "reliable": true,
+    "reason_bits": {
+      "INVALID_XYZ": 1,
+      "PLANE_UNRELIABLE": 2,
+      "GROUND_BAND": 4,
+      "LOW_OBJECT_PROTECT": 8,
+      "OUTSIDE_PLANE_SUPPORT": 16
+    },
+    "candidate_count": 3112,
+    "semantics": "heuristic single-plane support; not terrain truth",
+    "acceptance_checks": {
+      "inlier_ratio": true,
+      "quadrants": true,
+      "radial_span": true,
+      "slope": true,
+      "residual": true,
+      "near_residual": true,
+      "far_residual": true
+    },
+    "plane_z_ax_by_c": [
+      0.002350977612780383,
+      0.0014718756670976663,
+      -1.4176491755526028
+    ],
+    "inlier_ratio": 0.775706940874036,
+    "slope": 0.002773718391471771,
+    "inlier_median_absolute_residual_m": 0.047736339447765896,
+    "support_radial_span_m": 41.98494857550461,
+    "ground_points": 19976,
+    "low_object_protected": 29184
+  },
+  "optical": {
+    "module": "optical",
+    "status": "OK",
+    "reason_bits": {
+      "INVALID_XYZ": 1,
+      "NO_INTENSITY": 2,
+      "INSUFFICIENT_LOCAL_SUPPORT": 4,
+      "RELATIVE_DIM_RETURN": 8,
+      "UNSUPPORTED_LAYOUT": 16
+    },
+    "semantics": "local robust intensity score, not reflectivity or posterior",
+    "available_points": 99612
+  },
+  "geometry": {
+    "module": "geometry",
+    "status": "OK",
+    "reason_bits": {
+      "INVALID_XYZ": 1,
+      "SCAN_UNAVAILABLE": 2,
+      "SPATIAL_UNAVAILABLE": 4,
+      "EDGE_OR_LINE_PROTECT": 8,
+      "PCA_DEGENERATE": 16,
+      "PHASE_UNTRUSTED": 32
+    },
+    "semantics": "local shape/angular scores; not sufficient aerosol evidence",
+    "angular_seam_wrapped": false,
+    "spatial_neighbor_cap": 15,
+    "scan_available_points": 80557,
+    "spatial_available_points": 86117,
+    "trusted_adjacent_phase_pairs": 78,
+    "edge_or_line_protected": 51635,
+    "capped_density": true
+  },
+  "decision": {
+    "module": "decision",
+    "status": "OK",
+    "reason_bits": {
+      "INVALID_XYZ": 1,
+      "GROUND_ACCEPTED": 2,
+      "LOW_OBJECT_PROTECTED": 4,
+      "EDGE_OR_LINE_PROTECTED": 8,
+      "OPTICAL_WEAK": 16,
+      "SCAN_DISCONTINUOUS": 32,
+      "SPATIAL_DIFFUSE": 64,
+      "SOLID_AGREEMENT": 128,
+      "OPTICAL_UNAVAILABLE": 256,
+      "SCAN_UNAVAILABLE": 512,
+      "SPATIAL_UNAVAILABLE": 1024,
+      "GROUND_UNRELIABLE": 2048,
+      "MATERIAL_CONFLICT": 4096,
+      "INSUFFICIENT_AGREEMENT": 8192,
+      "NEAR_GROUND_PROTECTED": 16384,
+      "AEROSOL_MULTI_EVIDENCE": 32768
+    },
+    "labels": {
+      "INVALID": 0,
+      "E": 1,
+      "A": 2,
+      "U": 3,
+      "G": 4
+    },
+    "semantics": "heuristic scores, not posteriors; A is aerosol candidate, U is retained unknown",
+    "counts": {
+      "INVALID": 39521,
+      "E": 14037,
+      "A": 11,
+      "U": 70455,
+      "G": 19976
+    }
+  }
+}

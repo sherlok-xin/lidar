@@ -1,0 +1,25 @@
+/home/xin/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Traceback (most recent call last):
+  File "/home/xin/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py", line 120, in get_projection_class
+    return projection_registry.get_projection_class(projection)
+  File "/home/xin/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py", line 83, in get_projection_class
+    return self._all_projection_types[name]
+KeyError: '3d'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/xin/lidar/opdf_v1/scripts/run_v1b.py", line 148, in <module>
+    main()
+  File "/home/xin/lidar/opdf_v1/scripts/run_v1b.py", line 92, in main
+    render_frame(path, output_png=out / 'figures' / f'{key}_3d.png',
+  File "/home/xin/lidar/opdf_v1/opdf/visualization.py", line 120, in render_frame
+    ax = fig.add_subplot(2, 2, i + 1, projection='3d', facecolor='#101724')
+  File "/home/xin/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 774, in add_subplot
+    projection_class, pkw = self._process_projection_requirements(**kwargs)
+  File "/home/xin/.local/lib/python3.10/site-packages/matplotlib/figure.py", line 1786, in _process_projection_requirements
+    projection_class = projections.get_projection_class(projection)
+  File "/home/xin/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py", line 122, in get_projection_class
+    raise ValueError("Unknown projection %r" % projection) from err
+ValueError: Unknown projection '3d'

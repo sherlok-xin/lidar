@@ -1,0 +1,27 @@
+[
+  {
+    "logical_id": "MASTER",
+    "thread_id": "01a1879a-7a66-7082-a4d2-d2c7d1b18827",
+    "session_meta_match": true
+  },
+  {
+    "logical_id": "DATA-01",
+    "thread_id": "01a1879b-1874-7502-89b9-f713e7b7afcd",
+    "session_meta_match": true
+  },
+  {
+    "logical_id": "PIPE-02",
+    "thread_id": "01a1879b-44c5-75e2-8bdf-2ad8ee44682a",
+    "session_meta_match": true
+  },
+  {
+    "logical_id": "RESEARCH-03",
+    "thread_id": "01a1879b-7838-7240-9eca-b431e699ebcf",
+    "session_meta_match": true
+  },
+  {
+    "logical_id": "QA-04",
+    "thread_id": "01a187a2-e6d8-7650-ac91-cbf49dadbe02",
+    "session_meta_match": true
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "created_utc": "2026-10-30T16:04:02.034638+00:00",
+  "source_npz": "/home/xin/lidar/opdf_v1/evidence/eval_pytest_tmp/test_blind_review_does_not_emb0/fixture.npz",
+  "source_npz_sha256": "d5c7296cb6c6e74b1c9e7fae2ede8e81827e3a72ad62c66b97e23219fd01f206",
+  "source_sidecar": "/home/xin/lidar/opdf_v1/evidence/eval_pytest_tmp/test_blind_review_does_not_emb0/fixture.json",
+  "source_sidecar_sha256": "962b3061f75c0fbeec2a9c36afd0a463ccbe593dd92579cb2cf0427b5a154894",
+  "source_message_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "source_cache_path": null,
+  "source_cache_sha256": null,
+  "source_bag": null,
+  "source_record_locator": null,
+  "source_frame_id": "fixture",
+  "source_header_stamp_ns": 1234000000000,
+  "config_path": null,
+  "config_file_sha256": null,
+  "heuristic_config_sha256": null,
+  "roi": {
+    "raw_slot_ids": [
+      42,
+      3,
+      25
+    ]
+  },
+  "camera": {
+    "version": 1,
+    "projection": "perspective",
+    "target": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "distance": 5.4,
+    "azimuth_deg": -65.0,
+    "elevation_deg": 22.0,
+    "fov_deg": 45.0,
+    "up_axis": "z"
+  },
+  "blind": true,
+  "exact_selected_count": 3,
+  "selected_invalid_xyz_count": 1,
+  "exact_raw_slot_ids_sha256": "bd0459f0c6673863b84c0158c1af02cb8ce4502c709e7751212ab5fd5d423f5e",
+  "feature_keys": [
+    "xyz",
+    "intensity",
+    "valid_xyz_mask",
+    "raw_slot_id"
+  ],
+  "display_max_points": 1,
+  "semantic_truth": "UNKNOWN_NO_INDEPENDENT_GT"
+}

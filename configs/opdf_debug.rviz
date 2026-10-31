@@ -1,0 +1,90 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 16; 23; 36
+    Fixed Frame: rslidar
+    Frame Rate: 20
+  Displays:
+    - Class: rviz_default_plugins/PointCloud2
+      Name: RAW original points
+      Enabled: true
+      Topic:
+        Value: /opdf_v1/raw
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Style: Points
+      Size (Pixels): 2
+      Color Transformer: Intensity
+      Channel Name: intensity
+      Decay Time: 0
+    - Class: rviz_default_plugins/PointCloud2
+      Name: E+U retained - not confirmed solid
+      Enabled: false
+      Topic:
+        Value: /opdf_v1/solid
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Depth: 5
+      Style: Points
+      Size (Pixels): 3
+      Color Transformer: FlatColor
+      Color: 24; 203; 178
+      Decay Time: 0
+    - Class: rviz_default_plugins/PointCloud2
+      Name: A aerosol CANDIDATES
+      Enabled: false
+      Topic:
+        Value: /opdf_v1/aerosol_candidate
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        Depth: 5
+      Style: Points
+      Size (Pixels): 4
+      Color Transformer: FlatColor
+      Color: 255; 148; 45
+      Decay Time: 0
+    - Class: rviz_default_plugins/PointCloud2
+      Name: U unknown
+      Enabled: false
+      Topic:
+        Value: /opdf_v1/unknown
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        Depth: 5
+      Style: Points
+      Size (Pixels): 3
+      Color Transformer: FlatColor
+      Color: 175; 123; 255
+      Decay Time: 0
+    - Class: rviz_default_plugins/PointCloud2
+      Name: G plane CANDIDATES
+      Enabled: false
+      Topic:
+        Value: /opdf_v1/ground
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        Depth: 5
+      Style: Points
+      Size (Pixels): 2
+      Color Transformer: FlatColor
+      Color: 153; 159; 169
+      Decay Time: 0
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 35
+      Focal Point:
+        X: 5
+        Y: 0
+        Z: -1
+      Pitch: 0.45
+      Yaw: 0.8
+Window Geometry:
+  Width: 1440
+  Height: 1000

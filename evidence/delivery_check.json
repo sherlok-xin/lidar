@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-10-31T09:02:19.614010+08:00",
+  "scope": "existing-artifact consistency only; no algorithm rerun and no original bag decode",
+  "pass": true,
+  "frames": [
+    {
+      "key": "early_seq245616",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 83316,
+      "counts_invalid_e_a_u_g": [
+        60684,
+        8241,
+        5,
+        53100,
+        21970
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "early_seq245617",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 83040,
+      "counts_invalid_e_a_u_g": [
+        60960,
+        8248,
+        6,
+        53608,
+        21178
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "early_seq245618",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 82858,
+      "counts_invalid_e_a_u_g": [
+        61142,
+        8067,
+        3,
+        53446,
+        21342
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "middle_seq245846",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 104757,
+      "counts_invalid_e_a_u_g": [
+        39243,
+        13709,
+        14,
+        63833,
+        27201
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "middle_seq245847",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 104479,
+      "counts_invalid_e_a_u_g": [
+        39521,
+        14037,
+        11,
+        70455,
+        19976
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "middle_seq245848",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 104482,
+      "counts_invalid_e_a_u_g": [
+        39518,
+        13967,
+        27,
+        63189,
+        27299
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "late_seq246076",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 90589,
+      "counts_invalid_e_a_u_g": [
+        53411,
+        10054,
+        10,
+        59230,
+        21295
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "late_seq246077",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 90163,
+      "counts_invalid_e_a_u_g": [
+        53837,
+        10040,
+        4,
+        59835,
+        20284
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    },
+    {
+      "key": "late_seq246078",
+      "status": "OK",
+      "slots": 144000,
+      "valid": 89422,
+      "counts_invalid_e_a_u_g": [
+        54578,
+        9820,
+        2,
+        56223,
+        23377
+      ],
+      "exact_original_slots": true,
+      "conservative_gates_for_a": true
+    }
+  ],
+  "counts_invalid_e_a_u_g": [
+    462894,
+    96183,
+    82,
+    532919,
+    203922
+  ],
+  "final_module_source_hashes_match": true,
+  "qa_reviewed_source_hashes_match": true,
+  "qa_checked_report_hashes_match": true,
+  "document_links_resolve": true,
+  "protected_inputs_pass": true,
+  "semantic_accuracy_or_safety_certified": false,
+  "crossprocess_rviz_verified": false,
+  "m4_filter_implemented": false
+}

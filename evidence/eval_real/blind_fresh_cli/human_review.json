@@ -1,0 +1,12 @@
+{
+  "case_id": "blind_fresh_cli",
+  "source_npz_sha256": "fc4d3531780837db881b64f276a378b29199961046001650061d2db351bb472f",
+  "exact_raw_slot_ids_sha256": "dc56f1189d2edaa5287d817845c8a8016bbeceaaf811e51a6363dbd766851f7c",
+  "reviewer_id": null,
+  "confidence": null,
+  "human_label": null,
+  "note": null,
+  "status": "PENDING_HUMAN_REVIEW",
+  "scope": "selected ROI, not all frame; confidence is human self-report, not calibrated",
+  "independent_reference_certified": false
+}

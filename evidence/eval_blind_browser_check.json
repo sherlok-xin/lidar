@@ -1,0 +1,6 @@
+{
+  "headless_rendered": true,
+  "selftest_pass": true,
+  "gui_human_verified": false,
+  "browser": "local Google Chrome headless; no Playwright installed"
+}

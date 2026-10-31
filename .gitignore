@@ -1,0 +1,11 @@
+__pycache__/
+.pytest*/
+.cache/
+.chrome*/
+samples/*.ros1msg
+samples_reextract/
+outputs/
+evidence/*.html
+evidence/ros_logs/
+evidence/qa_*/
+core*

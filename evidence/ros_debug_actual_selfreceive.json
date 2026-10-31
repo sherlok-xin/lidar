@@ -1,0 +1,29 @@
+{
+  "raw_mode": "exact_cached_source_point_bytes",
+  "original_frame_id": "rslidar",
+  "original_header_stamp_ns": 1789629270666355610,
+  "no_gt": true,
+  "counts": {
+    "/opdf_v1/raw": 144000,
+    "/opdf_v1/solid": 84492,
+    "/opdf_v1/aerosol_candidate": 11,
+    "/opdf_v1/unknown": 70455,
+    "/opdf_v1/ground": 19976
+  },
+  "solid_definition": "E+U protected; UNKNOWN intentionally also has a separate debug topic",
+  "domain_id": 104,
+  "localhost_only": true,
+  "rviz_gui_verified": false,
+  "ros_node_created": true,
+  "cdr_roundtrip": "PASS",
+  "received": {
+    "/opdf_v1/raw": 3,
+    "/opdf_v1/solid": 3,
+    "/opdf_v1/aerosol_candidate": 3,
+    "/opdf_v1/unknown": 3,
+    "/opdf_v1/ground": 3
+  },
+  "receive_mismatches": [],
+  "published_repetitions": 3,
+  "dds_self_receive": "PASS"
+}

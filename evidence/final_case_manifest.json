@@ -1,0 +1,100 @@
+[
+  {
+    "case": "near_ground_rough_vegetation_candidate",
+    "source": "/home/xin/lidar/opdf_v1/outputs/v1b_real9_final/frames/middle_seq245847.npz",
+    "header_ns": 1789629270666355610,
+    "slots": 4096,
+    "counts": {
+      "3": 3946,
+      "4": 150
+    },
+    "roi": {
+      "bbox": [
+        3.0,
+        18.0,
+        -16.0,
+        -6.0,
+        -1.8,
+        -0.5
+      ]
+    },
+    "human_review": {
+      "case_id": "near_ground_rough_vegetation_candidate",
+      "source_npz_sha256": "3a4b00c65350cec21ae9e31e7e7b3dcee5c67fad5246d5035bcde7374e111797",
+      "exact_raw_slot_ids_sha256": "57b9e2de1fe5f23187904e1e8875cdd1a36b0657a9e95da2b8d088c707f589c7",
+      "reviewer_id": null,
+      "confidence": null,
+      "human_label": null,
+      "note": "MASTER assistant-selected near-ground rough/vegetation candidate; no certified grass point labels; inspect G versus U and low obstacles",
+      "status": "PENDING_HUMAN_REVIEW",
+      "scope": "selected ROI, not all frame; confidence is human self-report, not calibrated",
+      "independent_reference_certified": false
+    }
+  },
+  {
+    "case": "vehicle_structure_candidate",
+    "source": "/home/xin/lidar/opdf_v1/outputs/v1b_real9_final/frames/middle_seq245847.npz",
+    "header_ns": 1789629270666355610,
+    "slots": 20532,
+    "counts": {
+      "1": 6463,
+      "2": 4,
+      "3": 14065
+    },
+    "roi": {
+      "bbox": [
+        -7.0,
+        12.0,
+        -6.0,
+        6.0,
+        -0.8,
+        3.5
+      ]
+    },
+    "human_review": {
+      "case_id": "vehicle_structure_candidate",
+      "source_npz_sha256": "3a4b00c65350cec21ae9e31e7e7b3dcee5c67fad5246d5035bcde7374e111797",
+      "exact_raw_slot_ids_sha256": "56cac37bf0a3b36e3fb66faacad7a67e0a70e2144c06c73975703d729c2d3a65",
+      "reviewer_id": null,
+      "confidence": null,
+      "human_label": null,
+      "note": "MASTER assistant-selected vehicle-like structure context; semantic identity UNKNOWN; pending actual human review",
+      "status": "PENDING_HUMAN_REVIEW",
+      "scope": "selected ROI, not all frame; confidence is human self-report, not calibrated",
+      "independent_reference_certified": false
+    }
+  },
+  {
+    "case": "aerosol_surface_ambiguity",
+    "source": "/home/xin/lidar/opdf_v1/outputs/v1b_real9_final/frames/middle_seq245847.npz",
+    "header_ns": 1789629270666355610,
+    "slots": 2624,
+    "counts": {
+      "1": 544,
+      "2": 3,
+      "3": 2077
+    },
+    "roi": {
+      "bbox": [
+        7.0,
+        10.0,
+        1.0,
+        4.0,
+        -1.0,
+        2.5
+      ]
+    },
+    "human_review": {
+      "case_id": "aerosol_surface_ambiguity",
+      "source_npz_sha256": "3a4b00c65350cec21ae9e31e7e7b3dcee5c67fad5246d5035bcde7374e111797",
+      "exact_raw_slot_ids_sha256": "217a4b4e950d3980a5028524a88ccf2c767cf86229ebdb063574f7012a159fe0",
+      "reviewer_id": null,
+      "confidence": null,
+      "human_label": null,
+      "note": "MASTER candidate deletion-risk inspection around raw slot138364 and neighboring structure; not confirmed dust or confirmed false deletion",
+      "status": "PENDING_HUMAN_REVIEW",
+      "scope": "selected ROI, not all frame; confidence is human self-report, not calibrated",
+      "independent_reference_certified": false
+    }
+  }
+]

@@ -1,0 +1,2 @@
+[4:4:1031/000238.584094:ERROR:third_party/crashpad/crashpad/util/linux/socket.cc:45] setsockopt: Operation not permitted (1)
+timeout: the monitored command dumped core

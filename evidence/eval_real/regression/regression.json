@@ -1,0 +1,23 @@
+{
+  "source_case": "/home/xin/lidar/opdf_v1/evidence/eval_real/roi_unblinded",
+  "raw_message_sha256": "23bf647a6131d831ddda2d402edad1b8a44f6ef017f38ef1a1969dd40706651a",
+  "config_sha256": "6a3f8ee29053b61fdc739602d8fb0b082d51eccd8bb11fc8c3915bdfdc1bc4e1",
+  "ablation": "full",
+  "full_frame_changed_labels": 0,
+  "selected_roi_changed_labels": 0,
+  "full_frame_changed_reason_codes": 0,
+  "new_status": "OK",
+  "measurement_type": "BEHAVIOR_REGRESSION_NOT_ACCURACY",
+  "code_sha256": {
+    "opdf/__init__.py": "303e8af371e4ca9b374aa7ae57936420f7ce2c96163b815a51e5da5a3cd04fd5",
+    "opdf/cloud_schema.py": "b08dddb96289b13270fa82eecbac5f704cf1f77f78962be7725076cebde5618d",
+    "opdf/decision.py": "abeaecd72f6b0b1b6423a509d00b7a1b9abe3b693ffea10092962025a1023cf6",
+    "opdf/evaluation.py": "404105a2fdabb108dfda5c07e8559b202b9a3f3b09c3370cdb2de7ee2a28a9cc",
+    "opdf/geometry.py": "f337bd1689f425df050aa83ce27a1a5a335b848916d26a807c36e0357250105f",
+    "opdf/ground_lite.py": "33d179ee95d04dae4e78ffe221bba2ea6b2922e2f35bd0e8848dc487cd453d19",
+    "opdf/io_rosbag.py": "62e9c9774188cb07a0089bf18d6070664d5889b4ccc4df51b90b62cd31fbdff7",
+    "opdf/optical.py": "64cb6b73ef9a8ca92b2b84b131bfbdd30f70fd2c7c3807facde9d06843eb4444",
+    "opdf/pipeline.py": "f196cb8638b9d1a113d92b9dc56b13a9d10502e496d18239175bad4a316a2728",
+    "opdf/visualization.py": "4854b5dd319b13199b4c245f9d2394eb97b702d56a40c86aff928039a190c5cb"
+  }
+}

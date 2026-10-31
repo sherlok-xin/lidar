@@ -1,0 +1,26 @@
+{
+  "date_local": "2026-10-31",
+  "verification_scope": "synthetic counterexamples and static review; no GT accuracy claims",
+  "actual_test_command": "OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p test_algorithm*.py -v",
+  "actual_test_log": "evidence/algo_tests.log",
+  "tests_run": 15,
+  "tests_failed": 0,
+  "defaults_match_frozen_yaml": {
+    "ground": true,
+    "optical": true,
+    "geometry": true,
+    "decision": true
+  },
+  "parent_added_diagnostics_reviewed": true,
+  "algorithm_thresholds_changed_in_this_completion": false,
+  "own_cached_frame_runs_in_this_completion": 0,
+  "parent_real_run_reviewed": "outputs/v1b_real9_baseline/run_summary.json",
+  "source_sha256": {
+    "opdf/ground_lite.py": "33d179ee95d04dae4e78ffe221bba2ea6b2922e2f35bd0e8848dc487cd453d19",
+    "opdf/optical.py": "64cb6b73ef9a8ca92b2b84b131bfbdd30f70fd2c7c3807facde9d06843eb4444",
+    "opdf/geometry.py": "f337bd1689f425df050aa83ce27a1a5a335b848916d26a807c36e0357250105f",
+    "opdf/decision.py": "abeaecd72f6b0b1b6423a509d00b7a1b9abe3b693ffea10092962025a1023cf6",
+    "tests/test_algorithm_safety.py": "bae07addd4c1c48180fe7a761a6da1fa007cebd394e2b49c9b212136852bbfcb",
+    "configs/v1b.yaml": "d9a22c0c5b111f772e14e7512ea36640b64a37462224e7f5d5379d022b0d34c0"
+  }
+}

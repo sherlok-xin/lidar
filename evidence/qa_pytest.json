@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "-q",
+    "tests",
+    "--basetemp=/home/xin/lidar/opdf_v1/.pytest_tmp/qa_independent"
+  ],
+  "cwd": "/home/xin/lidar/opdf_v1",
+  "exit_code": 0,
+  "elapsed_seconds": 3.797769477008842,
+  "output_log": "evidence/qa_pytest.log",
+  "selected_environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "TMPDIR": "/home/xin/lidar/opdf_v1/.cache/qa_tmp",
+    "MPLCONFIGDIR": "/home/xin/lidar/opdf_v1/.cache/qa_matplotlib",
+    "OPENBLAS_NUM_THREADS": "2"
+  }
+}

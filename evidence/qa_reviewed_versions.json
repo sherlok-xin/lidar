@@ -1,0 +1,83 @@
+{
+  "date_local": "2026-10-31",
+  "qa_thread_id": "01a187a2-e6d8-7650-ac91-cbf49dadbe02",
+  "verdict": "PASS_OFFLINE_PROTOTYPE_ONLY",
+  "production_or_gt_effectiveness_certified": false,
+  "all_independent_tests": 41,
+  "source_original_messages_reread": 1,
+  "ros_debug_actual_log_reviewed": true,
+  "reviewed_files": [
+    {
+      "path": "opdf/decision.py",
+      "sha256": "abeaecd72f6b0b1b6423a509d00b7a1b9abe3b693ffea10092962025a1023cf6"
+    },
+    {
+      "path": "opdf/visualization.py",
+      "sha256": "4854b5dd319b13199b4c245f9d2394eb97b702d56a40c86aff928039a190c5cb"
+    },
+    {
+      "path": "opdf/ground_lite.py",
+      "sha256": "443e5176d8f2f5f04587d944c68a60d9d3cf84a9bd7d362f18c65f522fec9c07"
+    },
+    {
+      "path": "opdf/__init__.py",
+      "sha256": "303e8af371e4ca9b374aa7ae57936420f7ce2c96163b815a51e5da5a3cd04fd5"
+    },
+    {
+      "path": "opdf/optical.py",
+      "sha256": "64cb6b73ef9a8ca92b2b84b131bfbdd30f70fd2c7c3807facde9d06843eb4444"
+    },
+    {
+      "path": "opdf/pipeline.py",
+      "sha256": "f196cb8638b9d1a113d92b9dc56b13a9d10502e496d18239175bad4a316a2728"
+    },
+    {
+      "path": "opdf/geometry.py",
+      "sha256": "f337bd1689f425df050aa83ce27a1a5a335b848916d26a807c36e0357250105f"
+    },
+    {
+      "path": "opdf/evaluation.py",
+      "sha256": "9ae82a3b195188897b26d97138c5dc49ce5e789f3fb952d61ed93a61b30cd07a"
+    },
+    {
+      "path": "opdf/io_rosbag.py",
+      "sha256": "62e9c9774188cb07a0089bf18d6070664d5889b4ccc4df51b90b62cd31fbdff7"
+    },
+    {
+      "path": "opdf/cloud_schema.py",
+      "sha256": "b08dddb96289b13270fa82eecbac5f704cf1f77f78962be7725076cebde5618d"
+    },
+    {
+      "path": "tests/test_algorithm_safety.py",
+      "sha256": "bae07addd4c1c48180fe7a761a6da1fa007cebd394e2b49c9b212136852bbfcb"
+    },
+    {
+      "path": "tests/test_io_schema.py",
+      "sha256": "2b72a3ca3607d45bc8c98657e951545840d02c897de3b2cac920a958b86ec913"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "sha256": "748324442333e9b23e7c13fc7a9ab59ab556c2127d24dc429fdd708343ee2025"
+    },
+    {
+      "path": "tests/test_evaluation_contract.py",
+      "sha256": "63cd03b65f842d1a0cfa31f3a0c1911816088da4de03302fd039a646dd48a080"
+    },
+    {
+      "path": "scripts/publish_rviz.py",
+      "sha256": "9e0660cb5a4abc052b6a5cf3cb85912eb2820eda579ba4358b8754a4db86f334"
+    },
+    {
+      "path": "scripts/review_roi.py",
+      "sha256": "13d86a4463da73b2f9b31162d6c2595489ed223c2cab95692266530351a0dda5"
+    },
+    {
+      "path": "configs/v1b.yaml",
+      "sha256": "d9a22c0c5b111f772e14e7512ea36640b64a37462224e7f5d5379d022b0d34c0"
+    },
+    {
+      "path": "reports/qa.md",
+      "sha256": "f72964c85fe4e45a41bca880ff7ca7ac39cf364ae6669e6184fc7158ac51b60c"
+    }
+  ]
+}

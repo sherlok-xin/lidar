@@ -1,0 +1,12 @@
+{
+  "actual_headless_chrome": true,
+  "browser_dom_body": "<body data-rendered=\"true\" data-selftest=\"PASS\">",
+  "selftest": {
+    "pass": true,
+    "shared_camera": true,
+    "panels": 4,
+    "real_3d_depth_sort": true
+  },
+  "scope": "Actual HTML JavaScript render and shared-camera 3D rotation; not RViz or human semantic review",
+  "initial_sandbox_attempt": "Chrome failed socket permission; authorized tool escalation succeeded"
+}

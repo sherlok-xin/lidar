@@ -1,0 +1,16 @@
+{
+  "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "dependencies": {
+    "numpy": true,
+    "scipy": true,
+    "matplotlib": true,
+    "yaml": true,
+    "open3d": false,
+    "plotly": false,
+    "pytest": true
+  },
+  "display": null,
+  "wayland": null,
+  "disk_free_bytes": 8883617792,
+  "new_dependency_install": false
+}

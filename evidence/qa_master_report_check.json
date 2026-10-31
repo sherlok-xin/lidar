@@ -1,0 +1,40 @@
+{
+  "date_local": "2026-10-31",
+  "checked_at": "2026-10-31T09:01:25.341442+08:00",
+  "qa_thread_id": "01a187a2-e6d8-7650-ac91-cbf49dadbe02",
+  "scope": "Read-only final-document cross-check against existing artifacts only; no bag reads or experimental reruns",
+  "documents": [
+    {
+      "path": "reports/v1b_experiment.md",
+      "sha256": "2b73e89b6fd77c6c483f68cd243f152a5879f613a9d7691a3fce02455a0f892b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b54ea97c3f9c78ce631664367521e182b7acfcdefa0d29ec6c6153b3a559af24"
+    }
+  ],
+  "checks": {
+    "real_frames_9_and_counts": true,
+    "sensitivity_totals_minus0p1_base_plus0p1": [
+      48,
+      29,
+      15
+    ],
+    "ablations_3_representative_frames": true,
+    "three_roi_full_slot_counts_and_labels_match": true,
+    "raw_slot_138364_values_match": true,
+    "all9_ground_selfchecks_pass_not_truth": true,
+    "compute_timings_match_metrics_csv": true,
+    "dds_same_single_node_header_data_not_crossprocess_gui": true,
+    "no_gt_precision_recall_or_b1_performance_claim": true,
+    "initial_plot_failure_retained": true,
+    "not_10hz_or_safety_deployment": true
+  },
+  "ground_intercept_range_recomputed": [
+    -1.4251233198606716,
+    -1.356629094541574
+  ],
+  "factual_errors_found": [],
+  "verdict": "PASS_DOCUMENTS_CONSISTENT_WITH_REVIEWED_EVIDENCE",
+  "implementation_retested_this_step": false
+}

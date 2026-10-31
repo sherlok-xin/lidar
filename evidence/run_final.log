@@ -1,0 +1,10 @@
+{"frame": "early_seq245616", "status": "OK", "slots": 144000, "valid": 83316, "INVALID": 60684, "E": 8241, "A": 5, "U": 53100, "G": 21970}
+{"frame": "early_seq245617", "status": "OK", "slots": 144000, "valid": 83040, "INVALID": 60960, "E": 8248, "A": 6, "U": 53608, "G": 21178}
+{"frame": "early_seq245618", "status": "OK", "slots": 144000, "valid": 82858, "INVALID": 61142, "E": 8067, "A": 3, "U": 53446, "G": 21342}
+{"frame": "middle_seq245846", "status": "OK", "slots": 144000, "valid": 104757, "INVALID": 39243, "E": 13709, "A": 14, "U": 63833, "G": 27201}
+{"frame": "middle_seq245847", "status": "OK", "slots": 144000, "valid": 104479, "INVALID": 39521, "E": 14037, "A": 11, "U": 70455, "G": 19976}
+{"frame": "middle_seq245848", "status": "OK", "slots": 144000, "valid": 104482, "INVALID": 39518, "E": 13967, "A": 27, "U": 63189, "G": 27299}
+{"frame": "late_seq246076", "status": "OK", "slots": 144000, "valid": 90589, "INVALID": 53411, "E": 10054, "A": 10, "U": 59230, "G": 21295}
+{"frame": "late_seq246077", "status": "OK", "slots": 144000, "valid": 90163, "INVALID": 53837, "E": 10040, "A": 4, "U": 59835, "G": 20284}
+{"frame": "late_seq246078", "status": "OK", "slots": 144000, "valid": 89422, "INVALID": 54578, "E": 9820, "A": 2, "U": 56223, "G": 23377}
+{"run_id": "v1b_real9_final", "source_bag": "/home/xin/lidar/data/2026-09-17-15-14-07_1.bag", "actual_real_frames": 9, "config_sha256": "6a3f8ee29053b61fdc739602d8fb0b082d51eccd8bb11fc8c3915bdfdc1bc4e1", "failures": [], "elapsed_total_seconds": 30.250377527961973, "compute_scope": "single frame V1-B only; no production B1 or supervised training", "frames": 9, "total_slots": 1296000, "valid_xyz_count": 833106, "counts": {"e": 96183, "a": 82, "u": 532919, "g": 203922}, "metrics_csv": "/home/xin/lidar/opdf_v1/outputs/v1b_real9_final/metrics.csv", "behavior_report": "/home/xin/lidar/opdf_v1/outputs/v1b_real9_final/behavior_report.md", "no_independent_gt": true, "performance_computed": false}

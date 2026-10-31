@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-31T09:02:02.239337+08:00",
+  "input_bag_check": "size/mtime/head4096 only, not whole-file hash",
+  "research_ops_files": 165,
+  "engineering_files": 316,
+  "changes": [],
+  "pass": true,
+  "writes": "opdf_v1/evidence/protection_check.json only"
+}

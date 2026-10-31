@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "projection": "perspective",
+  "target": [
+    1,
+    0,
+    0.1
+  ],
+  "distance": 22,
+  "azimuth_deg": -65,
+  "elevation_deg": 18,
+  "fov_deg": 45,
+  "up_axis": "z"
+}
