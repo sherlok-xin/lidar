@@ -9,3 +9,21 @@ evidence/*.html
 evidence/ros_logs/
 evidence/qa_*/
 core*
+# 忽略所有 ROS 产生的临时数据和缓存
+**/.ros/
+**/.runtime/
+
+# 忽略可能产生的日志文件
+**/ros_logs/
+**/.pytest_cache/
+**/.pytest_tmp/
+**/.cache/
+
+# 忽略 Python 编译缓存
+__pycache__/
+*.pyc
+
+# 忽略大型数据文件和本地输出（根据你之前的 README 建议忽略）
+outputs/
+evidence/
+
