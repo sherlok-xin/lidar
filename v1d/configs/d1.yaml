@@ -1,0 +1,47 @@
+method: OPDF-V1-D1-display-ground-clutter
+version: 0.1.0
+semantics: display candidates only; original labels and production occupancy unchanged
+seed: 712
+d1:
+  ground_lower_m: -0.10
+  ground_upper_m: 0.07
+  upper_ablation_m: [0.035, 0.07, 0.10, 0.15]
+  local_cell_m: 1.0
+  seed_lower_m: -0.10
+  seed_upper_m: 0.035
+  seed_quantile: 0.35
+  min_seed_points_per_cell: 3
+  local_radius_m: 2.5
+  min_local_seed_cells: 5
+  min_xy_span_m: 1.0
+  min_local_quadrants: 3
+  local_inlier_residual_m: 0.05
+  max_local_fit_mad_m: 0.025
+  max_local_slope: 0.08
+  max_local_correction_m: 0.08
+  cluster_min_height_m: 0.035
+  cluster_max_height_m: 0.55
+  cluster_xy_voxel_m: 0.30
+  cluster_z_voxel_m: 0.08
+  cluster_min_points: 8
+  compact_max_span_m: 1.20
+  compact_min_height_m: 0.04
+  hard_min_points: 4
+  hard_vertical_span_m: 0.18
+  hard_high_quantile_m: 0.40
+  hard_scan_surface_min: 0.80
+  hard_spatial_surface_min: 0.80
+  hard_surface_fraction_min: 0.25
+  clutter_min_lateral_span_m: 1.20
+  clutter_max_vertical_span_m: 0.06
+  contact_ground_band_m: 0.03
+  contact_radius_m: 0.25
+  contact_fraction_min: 0.35
+  clutter_base_height_max_m: 0.08
+  small_radius_m: 0.15
+  large_radius_m: 0.35
+  min_small_ball_count: 3
+  min_large_ball_count: 8
+  multiscale_support_fraction_min: 0.70
+  min_geometry_available_fraction: 0.70
+  workers: 2

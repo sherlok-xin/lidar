@@ -1,0 +1,47 @@
+method: OPDF-V1-D2-multiscale-candidate
+version: 0.1.0
+semantics: debugging candidates only; no material GT or safety claim
+seed: 712
+d2:
+  scales: [small, medium, large]
+  range_factors: [0.012, 0.024, 0.048]
+  radius_min_m: [0.12, 0.24, 0.48]
+  radius_max_m: [0.45, 0.90, 1.80]
+  sample_caps: [64, 96, 96]
+  min_samples: [8, 10, 12]
+  batch_size: 256
+  max_collect_neighbors: 4096
+  workers: 2
+  distinct_xyz_quantum_m: 0.000001
+  radial_shell_boundary_fraction: 0.5
+  min_effective_radius_fraction: 0.50
+  min_eigen_extent_m2: 0.000001
+  normal_planarity_min: 0.20
+  line_axis_linearity_min: 0.50
+  hard_planarity_min: 0.55
+  hard_linearity_min: 0.70
+  hard_plane_rms_radius_max: 0.08
+  hard_line_rms_radius_max: 0.08
+  structure_consistency_cos_min: 0.94
+  min_consistent_structure_scales: 2
+  volume_isotropy_min: 0.20
+  volume_scattering_min: 0.40
+  volume_octants_min: 6
+  volume_shells_min: 2
+  volume_phases_min: 3
+  min_volume_scales: 2
+  volume_requires_large: true
+  new_A_requires_all_scales_available: true
+  optical_relative_weak_min: 0.55
+  uniform_low_enabled: true
+  uniform_intensity_max: 3.0
+  uniform_local_median_max: 3.0
+  uniform_abs_relative_z_max: 0.10
+  entity_scan_surface_min: 0.65
+  preserve_B_G: true
+  new_A_source_labels: [3]
+  no_direct_E_to_A: true
+  hard_protection: old_low_near_edge_union_D1_hard_structure
+  old_A_recall_if_protected_or_new_structure: true
+  replace_old_scan_AND_for_new_A: explicit_multiscale_volume_plus_optical
+  C_aux_semantics: copied_or_computed_from_original_B48_uniform_enabled

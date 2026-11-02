@@ -1,0 +1,121 @@
+{
+  "captured_at": "2026-10-29T20:22:26.565587+08:00",
+  "runtime": "Codex native collaboration.spawn_agent; actual UUID from session_meta",
+  "agents": [
+    {
+      "logical_id": "MASTER",
+      "canonical_task": "/root",
+      "thread_id": "01a1879a-7a66-7082-a4d2-d2c7d1b18827",
+      "session_meta_file": "/home/xin/.codex/sessions/2026/10/29/rollout-2026-10-29T20-20-10-01a1879a-7a66-7082-a4d2-d2c7d1b18827.jsonl",
+      "evidence_type": "first JSONL record session_meta",
+      "nickname": null,
+      "opdf_role": "MASTER integration and acceptance",
+      "opdf_thread_verified_at": "2026-10-31T09:01:56.858486+08:00",
+      "opdf_status": "submitted; offline prototype only",
+      "v1d_role": "MASTER integration, D1/D2 gates, D3 probe, native live ROS/RViz and acceptance",
+      "v1d_uuid_reverified_at": "2026-11-02T06:58:33.087505+00:00",
+      "v1d_status": "completed this D assignment; no automatic continuation"
+    },
+    {
+      "logical_id": "DATA-01",
+      "canonical_task": "/root/data_01",
+      "thread_id": "01a1879b-1874-7502-89b9-f713e7b7afcd",
+      "session_meta_file": "/home/xin/.codex/sessions/2026/10/29/rollout-2026-10-29T20-20-50-01a1879b-1874-7502-89b9-f713e7b7afcd.jsonl",
+      "evidence_type": "first JSONL record session_meta",
+      "nickname": "Bernoulli",
+      "opdf_role": "DATA-01 M0 read-only bounded input",
+      "opdf_thread_verified_at": "2026-10-31T09:01:56.858486+08:00",
+      "opdf_status": "submitted; offline prototype only",
+      "v1d_role": "DATA-01 D1 local ground/low-clutter and pointwise display guard",
+      "v1d_uuid_reverified_at": "2026-11-02T06:58:33.087505+00:00",
+      "v1d_status": "completed this D assignment; no automatic continuation"
+    },
+    {
+      "logical_id": "PIPE-02",
+      "canonical_task": "/root/pipe_02",
+      "thread_id": "01a1879b-44c5-75e2-8bdf-2ad8ee44682a",
+      "session_meta_file": "/home/xin/.codex/sessions/2026/10/29/rollout-2026-10-29T20-21-02-01a1879b-44c5-75e2-8bdf-2ad8ee44682a.jsonl",
+      "evidence_type": "first JSONL record session_meta",
+      "nickname": "Boole",
+      "opdf_role": "ALGO M1/M2/M3/M5",
+      "opdf_thread_verified_at": "2026-10-31T09:01:56.858486+08:00",
+      "opdf_status": "submitted; offline prototype only",
+      "v1d_role": "PIPE-02 D2 multiscale/fusion and geometry-only/uniform-off ablations",
+      "v1d_uuid_reverified_at": "2026-11-02T06:58:33.087505+00:00",
+      "v1d_status": "completed this D assignment; no automatic continuation"
+    },
+    {
+      "logical_id": "RESEARCH-03",
+      "canonical_task": "/root/research_03",
+      "thread_id": "01a1879b-7838-7240-9eca-b431e699ebcf",
+      "session_meta_file": "/home/xin/.codex/sessions/2026/10/29/rollout-2026-10-29T20-21-15-01a1879b-7838-7240-9eca-b431e699ebcf.jsonl",
+      "evidence_type": "first JSONL record session_meta",
+      "nickname": "Leibniz",
+      "opdf_role": "EVAL real 3D/ROI/L0/debug publisher",
+      "opdf_thread_verified_at": "2026-10-31T09:01:56.858486+08:00",
+      "opdf_status": "submitted; offline prototype only",
+      "v1d_role": "RESEARCH-03 blind RAW ROIs, exact-slot evaluation, 3D comparison, ROS1 export",
+      "v1d_uuid_reverified_at": "2026-11-02T06:58:33.087505+00:00",
+      "v1d_status": "completed this D assignment; no automatic continuation"
+    },
+    {
+      "logical_id": "QA-04",
+      "canonical_task": "/root/qa_04",
+      "thread_id": "01a187a2-e6d8-7650-ac91-cbf49dadbe02",
+      "session_meta_file": "/home/xin/.codex/sessions/2026/10/29/rollout-2026-10-29T20-29-22-01a187a2-e6d8-7650-ac91-cbf49dadbe02.jsonl",
+      "evidence_type": "first JSONL record session_meta",
+      "nickname": "Gibbs",
+      "opdf_role": "QA-04 independent implementation and real-output audit",
+      "opdf_thread_verified_at": "2026-10-31T09:01:56.858486+08:00",
+      "opdf_status": "submitted; offline prototype only",
+      "v1d_role": "QA-04 recovered original thread, final actual GUI and document handoff audit; no claim of repeating antecedent tests",
+      "v1d_uuid_reverified_at": "2026-11-02T06:58:33.087505+00:00",
+      "v1d_status": "completed this D assignment; no automatic continuation"
+    },
+    {
+      "logical_id": "QA-04-B",
+      "canonical_task": "/root/qa_v1c_backup",
+      "thread_id": "01a1927f-5e85-7f83-a28b-aa7adf36b515",
+      "session_meta_file": "/home/xin/.codex/sessions/2026/10/31/rollout-2026-10-31T23-06-23-01a1927f-5e85-7f83-a28b-aa7adf36b515.jsonl",
+      "evidence_type": "session_meta id plus source.subagent.thread_spawn.agent_path",
+      "role": "independent V1-C backup QA",
+      "status": "PASS offline delivery; no material/accuracy/deployment certification",
+      "v1d_role": "QA-04-D independent actual tests, all-source checks, radius/PCA and native message sample; quota interrupted before final verdict",
+      "v1d_uuid_reverified_at": "2026-11-02T06:58:33.087505+00:00",
+      "v1d_logical_id": "QA-04-D",
+      "v1d_status": "completed this D assignment; no automatic continuation"
+    }
+  ],
+  "continuation": {
+    "date_local": "2026-10-30",
+    "new_threads_spawned": false,
+    "scope": "User-requested one-bag multisensor supplement; original DATA/PIPE/RESEARCH/QA native task threads reused",
+    "qa_previous_final_return": "Usage-limit error after original report was saved; supplement separately reviewed"
+  },
+  "phase": "OPDF-V1-D",
+  "phase2_scope": "Data reliability, width-aware scan mapping, raw preview, static interface and annotation/baseline preparation; original native threads reused",
+  "phase2_status": "Completed and accepted audit/protocol materials only; training/comparison readiness false",
+  "branch": "Independent offline D1/D2 algorithm improvement, bounded D3, read-only frozen B/C",
+  "opdf_status": "V1-B actual real9 final run delivered; independent QA PASS offline prototype only",
+  "continuation_opdf": {
+    "updated_at": "2026-10-31T09:01:56.858486+08:00",
+    "new_threads_spawned": false,
+    "all_original_threads_verified": true,
+    "m4_filter_implemented": false,
+    "phase3_resumed": false
+  },
+  "v1c_roles": {
+    "MASTER": "integration/live ROS1/acceptance",
+    "DATA-01": "continuous30/native ROS1 bag",
+    "PIPE-02": "diagnostic implementation; usage-limit failure; MASTER resumed",
+    "RESEARCH-03": "ROS1 player/RViz/ROI and sequence header repair",
+    "QA-04": "partial independent evidence; usage-limit interrupted; not final verdict",
+    "QA-04-B": "new real backup QA, independent final audit"
+  },
+  "new_threads_spawned_v1c": true,
+  "v1c_status": "COMPLETE: independent QA-04-B PASS for offline delivery only; no training/production deployment",
+  "v1d_status": "COMPLETE_LIMITED_OFFLINE; independent QA PASS; no training, deployment, or M4",
+  "new_threads_spawned_v1d": false,
+  "v1d_registry_updated_at": "2026-11-02T07:01:16.542590+00:00",
+  "v1d_qa_final_sha256": "d1ac00e35ae486973dfab0d5f3e63f4f1f03f746121182b200f695ff34bc163e"
+}

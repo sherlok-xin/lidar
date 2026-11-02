@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-11-02T07:01:16.747391+00:00",
+  "since": "2026-11-01T05:25:57.897542+00:00",
+  "threads": 6,
+  "native_events": 119,
+  "message_bodies_exported": false,
+  "scope": "Routing/hash/source line metadata only. LOG.md is MASTER paraphrase, not verbatim.",
+  "exported_sha256": "9f81be0af08717e8c099da38f2c94976208725119f51de32aa1f49ef5e15ad5f"
+}

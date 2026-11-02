@@ -33,6 +33,19 @@ python3 -B /home/xin/lidar/opdf_v1/v1c/scripts/frame_review_ros1.py \
   --seq 245847 --clock --rate 3
 ```
 
+
+终端C输入（可执行的）
+```bash
+export ROS_MASTER_URI=http://127.0.0.1:11321
+export ROS_IP=127.0.0.1
+
+python3 -B /home/xin/lidar/opdf_v1/v1c/scripts/frame_review_ros1.py \
+  --index /home/xin/lidar/opdf_v1/v1c/outputs/v1c_uniform_pair/debug_frame_index.json \
+  --seq 245847 \
+  --clock \
+  --rate 1 \
+  > /tmp/opdf_frame_review.log 2>&1
+```
 在终端C输入命令后按Enter：
 
 | 命令 | 操作 |

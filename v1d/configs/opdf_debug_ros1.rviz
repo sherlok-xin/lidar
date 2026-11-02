@@ -1,0 +1,275 @@
+Panels:
+- Class: rviz/Displays
+  Name: Displays
+Visualization Manager:
+  Class: ''
+  Displays:
+  - Class: rviz/Grid
+    Name: Grid
+    Enabled: true
+    Plane: XY
+    Cell Size: 1
+    Color: 65; 75; 88
+    Alpha: 0.25
+  - Class: rviz/PointCloud2
+    Name: RAW intensity
+    Enabled: true
+    Topic: /opdf_v1/raw
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: Intensity
+    Channel Name: intensity
+    Autocompute Intensity Bounds: true
+    Use Fixed Frame: true
+  - Class: rviz/PointCloud2
+    Name: Classes RGB
+    Enabled: false
+    Topic: /opdf_v1/class_rgb
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Nonground
+    Enabled: false
+    Topic: /opdf_v1/nonground
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Entity E
+    Enabled: false
+    Topic: /opdf_v1/entity_only
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 3
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Aerosol A
+    Enabled: false
+    Topic: /opdf_v1/aerosol_strong
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 4
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Unknown U
+    Enabled: false
+    Topic: /opdf_v1/unknown
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Ground G
+    Enabled: false
+    Topic: /opdf_v1/ground
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Retained E+U
+    Enabled: false
+    Topic: /opdf_v1/retained
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Optical
+    Enabled: false
+    Topic: /opdf_v1/optical_rgb
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Scan
+    Enabled: false
+    Topic: /opdf_v1/scan_rgb
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Spatial
+    Enabled: false
+    Topic: /opdf_v1/spatial_rgb
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Suspect REVIEW
+    Enabled: false
+    Topic: /opdf_v1/aerosol_suspect
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 4
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: E weak conflict
+    Enabled: false
+    Topic: /opdf_v1/entity_optical_conflict
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 4
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Ground Core
+    Enabled: false
+    Topic: /opdf_v1/ground_core
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Low-clutter ?
+    Enabled: false
+    Topic: /opdf_v1/low_clutter_candidate
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Nonground Strict
+    Enabled: false
+    Topic: /opdf_v1/nonground_strict
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: View minus Low
+    Enabled: false
+    Topic: /opdf_v1/nonground_display_only
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: B Entity
+    Enabled: false
+    Topic: /opdf_v1/b_entity
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: B Aerosol
+    Enabled: false
+    Topic: /opdf_v1/b_aerosol
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Entity B-D delta
+    Enabled: false
+    Topic: /opdf_v1/entity_evidence_change
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Aerosol B-D delta
+    Enabled: false
+    Topic: /opdf_v1/aerosol_evidence_change
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Hard protect ?
+    Enabled: false
+    Topic: /opdf_v1/hard_structure_protect
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  - Class: rviz/PointCloud2
+    Name: Low risk unknown
+    Enabled: false
+    Topic: /opdf_v1/low_risk_unknown
+    Queue Size: 1
+    Decay Time: 0
+    Style: Points
+    Size (Pixels): 2
+    Position Transformer: XYZ
+    Color Transformer: RGB8
+  Enabled: true
+  Global Options:
+    Background Color: 15; 22; 34
+    Fixed Frame: rslidar
+    Frame Rate: 30
+  Name: root
+  Tools:
+  - Class: rviz/Interact
+  - Class: rviz/MoveCamera
+  - Class: rviz/Select
+  - Class: rviz/Measure
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 35
+      Focal Point:
+        X: 0
+        Y: 5
+        Z: -0.5
+      Pitch: 0.35
+      Yaw: 0.8
+      Target Frame: rslidar
+Window Geometry:
+  Width: 1400
+  Height: 950
+  Hide Left Dock: false
+  Hide Right Dock: true
+  Displays:
+    collapsed: false
