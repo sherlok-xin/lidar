@@ -1,275 +1,724 @@
 Panels:
-- Class: rviz/Displays
-  Name: Displays
+  - Class: rviz/Displays
+    Help Height: 70
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+      Splitter Ratio: 0.5
+    Tree Height: 921
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
 Visualization Manager:
-  Class: ''
+  Class: ""
   Displays:
-  - Class: rviz/Grid
-    Name: Grid
-    Enabled: true
-    Plane: XY
-    Cell Size: 1
-    Color: 65; 75; 88
-    Alpha: 0.25
-  - Class: rviz/PointCloud2
-    Name: RAW intensity
-    Enabled: true
-    Topic: /opdf_v1/raw
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: Intensity
-    Channel Name: intensity
-    Autocompute Intensity Bounds: true
-    Use Fixed Frame: true
-  - Class: rviz/PointCloud2
-    Name: Classes RGB
-    Enabled: false
-    Topic: /opdf_v1/class_rgb
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Nonground
-    Enabled: false
-    Topic: /opdf_v1/nonground
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Entity E
-    Enabled: false
-    Topic: /opdf_v1/entity_only
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 3
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Aerosol A
-    Enabled: false
-    Topic: /opdf_v1/aerosol_strong
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 4
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Unknown U
-    Enabled: false
-    Topic: /opdf_v1/unknown
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Ground G
-    Enabled: false
-    Topic: /opdf_v1/ground
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Retained E+U
-    Enabled: false
-    Topic: /opdf_v1/retained
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Optical
-    Enabled: false
-    Topic: /opdf_v1/optical_rgb
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Scan
-    Enabled: false
-    Topic: /opdf_v1/scan_rgb
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Spatial
-    Enabled: false
-    Topic: /opdf_v1/spatial_rgb
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Suspect REVIEW
-    Enabled: false
-    Topic: /opdf_v1/aerosol_suspect
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 4
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: E weak conflict
-    Enabled: false
-    Topic: /opdf_v1/entity_optical_conflict
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 4
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Ground Core
-    Enabled: false
-    Topic: /opdf_v1/ground_core
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Low-clutter ?
-    Enabled: false
-    Topic: /opdf_v1/low_clutter_candidate
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Nonground Strict
-    Enabled: false
-    Topic: /opdf_v1/nonground_strict
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: View minus Low
-    Enabled: false
-    Topic: /opdf_v1/nonground_display_only
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: B Entity
-    Enabled: false
-    Topic: /opdf_v1/b_entity
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: B Aerosol
-    Enabled: false
-    Topic: /opdf_v1/b_aerosol
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Entity B-D delta
-    Enabled: false
-    Topic: /opdf_v1/entity_evidence_change
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Aerosol B-D delta
-    Enabled: false
-    Topic: /opdf_v1/aerosol_evidence_change
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Hard protect ?
-    Enabled: false
-    Topic: /opdf_v1/hard_structure_protect
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
-  - Class: rviz/PointCloud2
-    Name: Low risk unknown
-    Enabled: false
-    Topic: /opdf_v1/low_risk_unknown
-    Queue Size: 1
-    Decay Time: 0
-    Style: Points
-    Size (Pixels): 2
-    Position Transformer: XYZ
-    Color Transformer: RGB8
+    - Alpha: 0.25
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 65; 75; 88
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: RAW intensity
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/raw
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Classes RGB
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/class_rgb
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Nonground
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/nonground
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Entity E
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/entity_only
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Aerosol A
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 4
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/aerosol_strong
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Unknown U
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/unknown
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Ground G
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/ground
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Retained E+U
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/retained
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Optical
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/optical_rgb
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Scan
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/scan_rgb
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Spatial
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/spatial_rgb
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Suspect REVIEW
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 4
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/aerosol_suspect
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: E weak conflict
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 4
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/entity_optical_conflict
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Ground Core
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/ground_core
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Low-clutter ?
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/low_clutter_candidate
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Nonground Strict
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/nonground_strict
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: View minus Low
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/nonground_display_only
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: B Entity
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/b_entity
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: B Aerosol
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/b_aerosol
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Entity B-D delta
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/entity_evidence_change
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Aerosol B-D delta
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/aerosol_evidence_change
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Hard protect ?
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/hard_structure_protect
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: Low risk unknown
+      Position Transformer: XYZ
+      Queue Size: 1
+      Selectable: true
+      Size (Pixels): 2
+      Size (m): 0.009999999776482582
+      Style: Points
+      Topic: /opdf_v1/low_risk_unknown
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 15; 22; 34
+    Default Light: true
     Fixed Frame: rslidar
     Frame Rate: 30
   Name: root
   Tools:
-  - Class: rviz/Interact
-  - Class: rviz/MoveCamera
-  - Class: rviz/Select
-  - Class: rviz/Measure
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/Measure
+  Value: true
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 35
+      Distance: 28.378955841064453
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
       Focal Point:
-        X: 0
-        Y: 5
-        Z: -0.5
-      Pitch: 0.35
-      Yaw: 0.8
+        X: -42.30564880371094
+        Y: 1.23306405544281
+        Z: 12.724005699157715
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.22500021755695343
       Target Frame: rslidar
+      Yaw: 3.4704906940460205
+    Saved: ~
 Window Geometry:
-  Width: 1400
-  Height: 950
-  Hide Left Dock: false
-  Hide Right Dock: true
   Displays:
     collapsed: false
+  Height: 1136
+  Hide Left Dock: false
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd0000000100000000000001560000041afc0200000001fb000000100044006900730070006c006100790073010000003b0000041a000000c700ffffff000005de0000041a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Width: 1850
+  X: 70
+  Y: 27
