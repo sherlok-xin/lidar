@@ -1,0 +1,19 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 27; 30; 36
+    Fixed Frame: uchile_processed_axes_uncertified
+    Frame Rate: 24
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 7
+      Focal Point:
+        X: 0.45
+        Y: -0.05
+        Z: 0.30
+      Pitch: 0.46
+      Yaw: 0.75

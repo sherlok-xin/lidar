@@ -1,0 +1,7 @@
+# Logical layout only. The CLI reads the matching environment variables.
+DATA_ROOT: datasets
+DERIVED_ROOT: derived/lidar_data_v1
+RUN_ROOT: new_runs/my_experiment
+RUNS_ROOT: completed_runs
+OPEN3D_ML_ROOT: third_party/Open3D-ML
+HISTORICAL_ROOT: licensed_historical_inputs

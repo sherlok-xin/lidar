@@ -1,0 +1,23 @@
+{
+ "version":"dust-learning-phase2-v1","seed":20261110,"threads":4,
+ "local_split":"three equal-duration chronological blocks; remove +/-5 seconds around both boundaries; three rotations train/validation/evaluation",
+ "local_scope":"EXPLORATORY_SAME_EVENT_PREVIOUSLY_OBSERVED",
+ "primary_fold":0,"annotation_budgets_frames":[8,24,64],
+ "nested_budget_selection":"hash ranking within training block only, no labels",
+ "risk_budgets":[0.001,0.01,0.05],"primary_risk_budget":0.01,
+ "minimum_meaningful_validation_dust_recall":0.10,
+ "risk_constraint":"both person and vehicle validation point FPR <= budget; both classes required",
+ "gate_objective":"maximum validation dust recall, then precision, then higher threshold",
+ "low_gate":"validation dust score 5% quantile capped below high gate",
+ "frozen_evaluation":"public pilot test and local evaluation block descriptive only, never fit or selection",
+ "source_ablations":["minus_spatial","minus_optical","minus_geometry","optical_only","geometry_only","conditional_intensity"],
+ "adaptation_default_features":"all 16 pilot features; not chosen from ablation results",
+ "adaptation_conditions":["A_source_frozen","B_target_only","C_source_target_equal_domain_class_mass"],
+ "extra_normalization_ablation":"target/joint B2 at largest budget, conditional intensity fitted training subset only",
+ "fixed_range_bins":[0,1,2,4,8,16,32,1000000],
+ "condition_normalizer_min_points":100,
+ "B1":{"C":1.0,"max_iter":300,"solver":"lbfgs"},
+ "B2":{"max_iter":100,"learning_rate":0.08,"max_leaf_nodes":15,"min_samples_leaf":50,"l2_regularization":1.0,"max_bins":127,"early_stopping":false},
+ "pending_labels_admitted":false,"physical_instance_identity_certified":false,
+ "model_expansion_allowed":false,"safety_certification":false
+}

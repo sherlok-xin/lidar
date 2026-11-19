@@ -1,6 +1,14 @@
-# 单 LiDAR 粉尘识别：研究阅读版
+# 单 LiDAR 粉尘研究：证据仓库与原生数据入口
 
-本页与[六方法结果表](public_results.csv)可独立阅读。研究关注民用矿山点云：在地面尘雾中，能否利用历史回波区分粉尘与真实障碍物？输出研究的是点的来源标签，不是道路可通行性。
+**给网页版 GPT：**先读 [阅读导航](docs/AI_READING_GUIDE.md)、[阶段状态](docs/PROJECT_STATE.md) 和[完整实验结论](temporal_open3d_v1/reports/temporal_experiment.md)。关键数字能在[独立复核](temporal_open3d_v1/reports/qa.md)及带分母的[逐种子、逐录制评价](temporal_open3d_v1/analysis/197/metrics.csv)中核对。当前提交增加的是数据入口、复盘和发布，不是一次新的模型训练。
+
+| 想了解什么 | 入口 |
+|---|---|
+| 什么数据可作监督、哪些有时序、两段 bag 是否真的解过 | [数据源](docs/DATASETS.md) · [hub 实验报告](docs/dataset_hub_report.md) · [标签映射](docs/LABEL_MAPPING.md) |
+| 代码如何读点、训练、回投、计算 AP 与实体误抑制 | [统一读取器](datahub/reader.py) · [冻结实验代码](temporal_open3d_v1/README.md) · [复现条件](docs/REPRODUCING.md) |
+| 人/车保护到底怎样、在原视角如何看 | [风险阈值与不可行状态](temporal_open3d_v1/analysis/risk.csv) · [原生 RViz 错误对照](docs/FIGURES.md) |
+| 工程师已有方法能借鉴什么 | [scfnr_ws 审查](engineering_reviews/scfnr_review.md) |
+| 历史模型或数据为什么未直接打包 | [发布清单](publication_manifest.csv) · [下一阶段设计](docs/NEXT_TRAINING_PLAN.md) |
 
 ## 输入与对照
 
@@ -20,4 +28,5 @@ N0 到 N1 的录制宏 AP 从 **0.8325 升至 0.9172**，三个种子的提升�
 
 静态矿山结果不能外推为移动设备表现。现有评价没有得到满足实体保护与有效粉尘召回双重要求的工作点，也没有认证植被材料或车辆安全。下一步优先补独立民用事件、可信的时间/坐标对齐及实体参考。
 
-此公开仓库仅含阅读所需的方法、聚合结果与指标含义，不含逐点数据、内部采集记录、工程师源码或模型权重。
+
+公开文件不含原始数据、内部采集标识映射、完整逐点预测或权重。文件角色、历史源码和可移植副本之间的差别列在发布清单。

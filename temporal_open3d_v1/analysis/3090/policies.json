@@ -1,0 +1,178 @@
+{
+  "S": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "T2": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "TK": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "TK_F4": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "TK_REC": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "TF": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "MASK": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "ACC": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "COPY": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "SHUFFLE": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "DISTANT": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "TK3": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "LAG2": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "LAG4": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.020594965675057208,
+    "reason": "dust recall below 10 percent"
+  },
+  "N0_pair": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.0009534706331045003,
+    "reason": "dust recall below 10 percent"
+  },
+  "N1_pair": {
+    "status": "UNAVAILABLE",
+    "threshold": null,
+    "val_person": 4094,
+    "val_vehicle": 29219,
+    "val_dust": 5244,
+    "person_frames": 12,
+    "vehicle_frames": 11,
+    "maximum_budget_recall": 0.0009534706331045003,
+    "reason": "dust recall below 10 percent"
+  }
+}

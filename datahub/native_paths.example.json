@@ -1,0 +1,29 @@
+{
+  "uchile": {
+    "root": "dataset_polvo",
+    "frozen_manifest": "audits/public_all_frames.json",
+    "audit_frames": "audits/public_frames.jsonl"
+  },
+  "dustx": {
+    "root": "LidarDustX_full",
+    "full_audit": "audits/dustx_content_audit.json"
+  },
+  "annotation": {
+    "root": "annotation_data/packages_v2",
+    "full_audit": "audits/annotation_frame_checks.csv",
+    "phase4": "audits/frozen_frame_roles.json",
+    "lineage": "audits/annotation_lineage.json",
+    "rebind": "annotation_data/review/rebind_report.json",
+    "reviewed": "annotation_data/review/labels.reviewed.jsonl",
+    "groups": {
+      "SOURCE_DECLARED_REVIEWED_PACKAGE": ["dust", "source_declared_reviewed", "point_supervision"],
+      "HISTORICALLY_EXPOSED_PACKAGE": ["dust", "source_label_proxy", "exploratory_single_frame"],
+      "HOLDOUT_INVENTORY_PACKAGE": ["smoke", "provisional_source", "inventory_only"]
+    }
+  },
+  "smoke": {
+    "root": "dataset_smoke",
+    "admitted_civilian_sequence": "VERIFIED_CIVILIAN_DIRECTORY",
+    "evidence": "relation.txt"
+  }
+}

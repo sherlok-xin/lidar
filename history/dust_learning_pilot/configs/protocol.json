@@ -1,0 +1,16 @@
+{
+  "version":"pilot-v1", "seed":20261110,
+  "public_frames_per_recording":8,"public_probes_per_frame":2048,
+  "local_frames":"all_426_reviewed", "local_query_points":"all_valid_person_vehicle_dust_only",
+  "feature_version":"xyzi_single_frame_v1", "neighbor_k":16,
+  "radii":[0.1,0.25], "threads":4,
+  "normalization_fit":"public_train_only",
+  "class_imbalance":"balanced_class_weights_from_public_train_only",
+  "local_fit_allowed":false,"pending_supervision_allowed":false,
+  "static_boundary_target":-1,"unlabeled_target":-1,
+  "threshold_selection":"maximize validation F1 subject to validation non-dust FPR <=0.01; no test/local selection",
+  "validation_non_dust_FPR_cap":0.01,"score_abstention_margin":0.10,
+  "B1":{"C":1.0,"max_iter":300,"solver":"lbfgs"},
+  "B2":{"max_iter":100,"learning_rate":0.08,"max_leaf_nodes":15,"min_samples_leaf":50,"l2_regularization":1.0,"max_bins":127,"early_stopping":false},
+  "scope":"single-frame; no temporal, odometry, ring, return identity, ground GT, camera, radar or radial velocity inputs"
+}

@@ -1,0 +1,38 @@
+version: strict_dust_native_v1
+task_codes: {0: ignore, 1: non_dust, 2: dust}
+two_logit_codes: {1: 0, 2: 1}
+unknown_policy: preserve_raw_id_and_ignore_or_raise
+entity_type: {0: unspecified, 1: source_person, 2: source_motor_vehicle}
+sources:
+  uchile_binary:
+    raw_to_task: {0: 2, 1: 1}
+    source_index: coord_npy_row
+    label_array: segment.npy
+  dustx_fine:
+    source: https://github.com/vincentweikey/LiDARDustX/blob/main/README.md
+    raw_to_task: {0: 0, 1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 2, 10: 0, 11: 0, 12: 1, 13: 1, 14: 1, 15: 1, 16: 1, 17: 1, 18: 1, 19: 1, 20: 1, 21: 1, 22: 1, 23: 1, 24: 1, 25: 0, 26: 1, 27: 1, 28: 1}
+    raw_names: [Ignore, Ground, Wall, ArtificialWall, Mountain, Tree, Grass, VerticalObstacle, StaticObstacle, Dust, Noise, Rainwater, Car, Truck, EngineeringVehicle, Bus, Pickup, Pedestrian, Rider, Tricycle, Bicycle, Construction, Trailer, Wire, Animal, Unknown, Stone, Mound, Panel]
+    rule_28: classify the named physical surface Panel as non-dust in this strict task
+    source_index: bin_storage_slot
+    entity_type_raw_person: [17]
+    entity_type_raw_motor_vehicle: [12, 13, 14, 15, 16]
+    mask: finite_xyz_and_no_confirmed_sensor_origin_placeholder
+    bounding_boxes: keep the source row number and quarantine nonpositive dimensions
+  dustx_unresolved:
+    raw_to_task: {1: 0, 2: 0, 3: 0, 4: 0}
+    source_index: bin_storage_slot
+    reason: ambiguous release-specific encoding
+  editor_v2:
+    raw_to_task: {0: 0, 1: 1, 2: 1, 3: medium_dependent, 4: 0}
+    media: {dust: 2, smoke: 0, unconfirmed: 0}
+    conflict: ignore
+    label_scope: exported and explicitly marked POST-LIO source indices
+    source_index: original_index_in_undistorted_source_message
+  no_point_labels:
+    raw: null
+    task: all_ignore
+    boxes: separate optional source records
+  none:
+    raw: null
+    task: all_ignore
+    source_index: original_message_point_or_decoded_packet_slot

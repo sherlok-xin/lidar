@@ -1,0 +1,153 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Enabled: true
+  Global Options:
+    Background Color: 27; 30; 36
+    Fixed Frame: uchile_processed
+    Frame Rate: 24
+  Displays:
+    - Class: rviz/PointCloud2
+      Name: raw
+      Enabled: true
+      Value: true
+      Topic: /mining_temporal_review/raw
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: reference
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/reference
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: single
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/single
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: temporal
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/temporal
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: single_error
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/single_error
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: temporal_error
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/temporal_error
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: unavailable
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/unavailable
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: unpredicted
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/unpredicted
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: stable_core
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/stable_core
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: translation_residual
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/translation_residual
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: smoothing_gain
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/smoothing_gain
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+    - Class: rviz/PointCloud2
+      Name: past_context
+      Enabled: false
+      Value: false
+      Topic: /mining_temporal_review/past_context
+      Position Transformer: XYZ
+      Color Transformer: RGB8
+      Style: Points
+      Size (Pixels): 3
+      Queue Size: 1
+      Decay Time: 0
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 10
+      Yaw: 0.78
+      Pitch: 0.4
+      Focal Point: {X: 0, Y: 0, Z: 0}
+Window Geometry:
+  Width: 1024
+  Height: 720

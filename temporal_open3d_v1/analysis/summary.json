@@ -1,0 +1,258 @@
+[
+  {
+    "model": "S",
+    "macro_AP_mean": 0.37608256647750093,
+    "macro_AP_seeds": [
+      0.3760898830864308,
+      0.37386776797896293,
+      0.37829004836710906
+    ],
+    "matched_F1_mean": 0.5321126424101407,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      1696,
+      1708,
+      1768
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      4057,
+      3479,
+      3443
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "T2",
+    "macro_AP_mean": 0.4866553501732316,
+    "macro_AP_seeds": [
+      0.4868416292567215,
+      0.48526707791057255,
+      0.4878573433524007
+    ],
+    "matched_F1_mean": 0.5687791413695419,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      1696,
+      1708,
+      1768
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      4057,
+      3479,
+      3443
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "TK",
+    "macro_AP_mean": 0.7384656842874796,
+    "macro_AP_seeds": [
+      0.7416823715643791,
+      0.739408051471689,
+      0.7343066298263707
+    ],
+    "matched_F1_mean": 0.6939509988956348,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      1696,
+      1708,
+      1768
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      4057,
+      3479,
+      3443
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "TK_F4",
+    "macro_AP_mean": 0.7427721577563308,
+    "macro_AP_seeds": [
+      0.7452872860544357,
+      0.7432372732607894,
+      0.739791913953767
+    ],
+    "matched_F1_mean": 0.6979539577710344,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      1696,
+      1708,
+      1768
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      4057,
+      3479,
+      3443
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "TK_REC",
+    "macro_AP_mean": 0.7605408641583642,
+    "macro_AP_seeds": [
+      0.7612065741755063,
+      0.7611378181226758,
+      0.7592782001769107
+    ],
+    "matched_F1_mean": 0.702878968850806,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      1696,
+      1708,
+      1768
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      4057,
+      3479,
+      3443
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "TF",
+    "macro_AP_mean": 0.765747642496153,
+    "macro_AP_seeds": [
+      0.7655442113959359,
+      0.7661935555732334,
+      0.7655051605192902
+    ],
+    "matched_F1_mean": 0.7075142556512865,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      1696,
+      1708,
+      1768
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      4057,
+      3479,
+      3443
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "N0_pair",
+    "macro_AP_mean": 0.832548247138809,
+    "macro_AP_seeds": [
+      0.84733397591919,
+      0.7699783760576895,
+      0.8803323894395475
+    ],
+    "matched_F1_mean": 0.8212722741005534,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      507,
+      1961,
+      1367
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      1470,
+      1890,
+      3084
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  },
+  {
+    "model": "N1_pair",
+    "macro_AP_mean": 0.917196522767948,
+    "macro_AP_seeds": [
+      0.9041628440738686,
+      0.9352064872148069,
+      0.9122202370151682
+    ],
+    "matched_F1_mean": 0.8413568472872862,
+    "n_per_seed": [
+      1135123,
+      1135123,
+      1135123
+    ],
+    "person_FP": [
+      507,
+      1961,
+      1367
+    ],
+    "person_den": 4155,
+    "vehicle_FP": [
+      1470,
+      1890,
+      3084
+    ],
+    "vehicle_den": 10665,
+    "risk_status": [
+      "UNAVAILABLE",
+      "UNAVAILABLE",
+      "UNAVAILABLE"
+    ]
+  }
+]

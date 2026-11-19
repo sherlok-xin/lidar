@@ -1,0 +1,96 @@
+{
+  "pass_checks": true,
+  "method": "native OGRE offscreen render of active RViz camera; no desktop capture",
+  "rows": [
+    {
+      "layer": "raw",
+      "sha256": "527165baf415071691d37a79f8c51359e2109ae98de8b4befebbd54c94238782",
+      "camera": {
+        "Distance": 33.953468322753906,
+        "Yaw": 0.7799999713897705,
+        "Pitch": 0.4000000059604645,
+        "center": [
+          1.3390776157379163,
+          1.2032613277435305,
+          2.345053112506867
+        ]
+      },
+      "varied_pixels": 39404,
+      "history_overlay": false,
+      "fixed_frame": "uchile_processed",
+      "source": "exterior2__Area_5__amtc_063"
+    },
+    {
+      "layer": "reference",
+      "sha256": "5fa2df11b6c090c3c4826b930bd03e60f1dc7afefa354ec3c68a3b32eaeb5960",
+      "camera": {
+        "Distance": 33.953468322753906,
+        "Yaw": 0.7799999713897705,
+        "Pitch": 0.4000000059604645,
+        "center": [
+          1.3390776157379163,
+          1.2032613277435305,
+          2.345053112506867
+        ]
+      },
+      "varied_pixels": 39404,
+      "history_overlay": false,
+      "fixed_frame": "uchile_processed",
+      "source": "exterior2__Area_5__amtc_063"
+    },
+    {
+      "layer": "single",
+      "sha256": "47bdb0bda5249e9915e90a67b9f5a4476243d0327ea82d20496427cd77d37216",
+      "camera": {
+        "Distance": 33.953468322753906,
+        "Yaw": 0.7799999713897705,
+        "Pitch": 0.4000000059604645,
+        "center": [
+          1.3390776157379163,
+          1.2032613277435305,
+          2.345053112506867
+        ]
+      },
+      "varied_pixels": 39404,
+      "history_overlay": false,
+      "fixed_frame": "uchile_processed",
+      "source": "exterior2__Area_5__amtc_063"
+    },
+    {
+      "layer": "temporal",
+      "sha256": "1d6f866a86a7d5d93d0319645fb64452e3a0b209c9e61be78e2c2c1e773ff652",
+      "camera": {
+        "Distance": 33.953468322753906,
+        "Yaw": 0.7799999713897705,
+        "Pitch": 0.4000000059604645,
+        "center": [
+          1.3390776157379163,
+          1.2032613277435305,
+          2.345053112506867
+        ]
+      },
+      "varied_pixels": 39404,
+      "history_overlay": false,
+      "fixed_frame": "uchile_processed",
+      "source": "exterior2__Area_5__amtc_063"
+    },
+    {
+      "layer": "temporal_error",
+      "sha256": "831993be445d30d324ae304d3e94401c251c947ef5eeaec884c4a1b326cef6cf",
+      "camera": {
+        "Distance": 33.953468322753906,
+        "Yaw": 0.7799999713897705,
+        "Pitch": 0.4000000059604645,
+        "center": [
+          1.3390776157379163,
+          1.2032613277435305,
+          2.345053112506867
+        ]
+      },
+      "varied_pixels": 814,
+      "history_overlay": false,
+      "fixed_frame": "uchile_processed",
+      "source": "exterior2__Area_5__amtc_063"
+    }
+  ]
+}

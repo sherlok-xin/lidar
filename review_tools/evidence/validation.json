@@ -1,0 +1,95 @@
+{
+  "status": "PASS_BOUNDED_TRAIN_IO_ONLY",
+  "source": {
+    "frame_uid": "uchile_e88fd9458921fc6aef6f",
+    "source_ref": "interior1/Area_1/amtc_068",
+    "frame_id": "uchile_processed_axes_uncertified",
+    "split": "train",
+    "stamp_ns": null,
+    "stamp_source": "unavailable",
+    "counts": {
+      "stored": 37814,
+      "valid": 37814,
+      "supervised": 37814,
+      "dust": 3200,
+      "ignored": 0
+    }
+  },
+  "rows_match_frozen_and_portable": [
+    "model_proj_voxel",
+    "raw_scores",
+    "score",
+    "source_point_index",
+    "stored_rows",
+    "valid"
+  ],
+  "frozen_forward": {
+    "checkpoint_sha256": "acc9d569980701d45e43899ddbeaa355954b012a405af4ac49ecd7e447dba595",
+    "epoch": 24,
+    "voxels": 36633,
+    "scored": 37814,
+    "optimizer_updates": 0,
+    "original_index_digest": {
+      "shape": [
+        37814
+      ],
+      "dtype": "<u4",
+      "sha256": "465464d8b97937e661a240beda10c98b0550832ed03691ea9a2389d746e5fe7f"
+    },
+    "score_digest": {
+      "shape": [
+        37814
+      ],
+      "dtype": "<f4",
+      "sha256": "a42641143fd65b9f6b65aaf85efcbeb8c2dce872bfd4eb69947aa07eccbb57d8"
+    }
+  },
+  "portable_model_code_sha256": "acf48a7fceed16ad72646cd7905572fdad3e4fc57ed5fe3bee839e937a06b50c",
+  "wire_layers": {
+    "raw": 37814,
+    "valid": 37814,
+    "index": 37814,
+    "reference": 37814,
+    "ignored": 0
+  },
+  "images": {
+    "raw": {
+      "points": 37814,
+      "non_background_pixels": 58006,
+      "sha256": "300bbcc7f09e957d63bae4e3faf0fae0a703c8c792fbc91e3273e186985060dc"
+    },
+    "valid": {
+      "points": 37814,
+      "non_background_pixels": 58006,
+      "sha256": "300bbcc7f09e957d63bae4e3faf0fae0a703c8c792fbc91e3273e186985060dc"
+    },
+    "reference": {
+      "points": 37814,
+      "non_background_pixels": 58006,
+      "sha256": "5400fb9300ad4d9474d8ced21508dde7605c49085886754387ab93f397c7d459"
+    },
+    "ignored": {
+      "points": 0,
+      "non_background_pixels": 0,
+      "sha256": "ad8ac3f796de48d13a77b97e21df69abe7d1fbf11ab4c837bcafcac6c2cef505"
+    },
+    "index": {
+      "points": 37814,
+      "non_background_pixels": 58006,
+      "sha256": "411b0c3f8ab36f3f0c3baf8725c56959c8feb4ec48e875fc97008ecd2c7a1e40"
+    }
+  },
+  "camera": {
+    "Distance": 7.0,
+    "Yaw": 0.75,
+    "Pitch": 0.46000000834465027,
+    "center": [
+      0.45,
+      -0.05,
+      0.3
+    ]
+  },
+  "master_closed": true,
+  "no_heldout_evaluation": true,
+  "empty_ignore_explicit": true
+}

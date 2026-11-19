@@ -1,0 +1,68 @@
+{
+  "version": "pointnet-fixed-8epochs-v1",
+  "architecture": {
+    "name": "ReducedPointNet2_SSG_XYZI_v1",
+    "num_classes": 2,
+    "context_points": 512,
+    "sa_npoints": [
+      128,
+      32,
+      8,
+      4
+    ],
+    "sa_nsamples": [
+      32,
+      32,
+      16,
+      8
+    ],
+    "sa_radii": [
+      0.1,
+      0.2,
+      0.4,
+      0.8
+    ],
+    "sa1_in_channel": 7,
+    "original_sa_npoints": [
+      1024,
+      256,
+      64,
+      16
+    ],
+    "original_sa1_in_channel": 12,
+    "input_transform": "per-block XYZ centroid/max radius; log1p(max(intensity,0)); no fitted parameters",
+    "padding": "not used; contexts shorter than128 unavailable",
+    "feature_propagation": "upstream 3-neighbor internal feature interpolation, not identity or unsampled output assignment",
+    "normalization": "all context XYZ; independent of labels; no training/test population fitting"
+  },
+  "seed": 20261114,
+  "threads": 4,
+  "batch_size": 2,
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "epochs": 8,
+  "checkpoint": "last epoch only",
+  "loss": "sum(global per-query weight * NLL) / (actual batch blocks * fixed512 capacity)",
+  "epoch_loss": "sum global weighted NLL / sum training query weights",
+  "L2_factor": 1.0,
+  "L3_factor": 2.0,
+  "only_ablation": "multiply local person/vehicle reference1/2 global training weights by2, globally mean-normalize; no confidence/noise/other loss change",
+  "same_batch_order_and_stochastic_training_recipe": true,
+  "inference_seed": "int(SHA256('20261114|pointnet-inference|'+block_id).hexdigest()[:8],16); one block per forward",
+  "stability_gate": "all eight finite epoch losses, finite nonzero backward gradients and finite model parameters; no evaluation accuracy criterion",
+  "training_protocol_sha256": "8e567e1ccd161778206def418505ee2567f7e8ed1c5bc1737d70aee81ee4744d",
+  "feature_cache_sha256": "7ba6c700ac46b87dbba47083bb8bda328aeb7f7b9c0f96a86502a83d8a07867c",
+  "cache_block_manifest_sha256": "da5e21bd9ab868a9a8f6b001a5ebc53c2571556e1009cb15e73f6a2bebeccd59",
+  "adapter_sha256": "fc6a225c263448670bdfad78357ab4bc43f137d0c32f0ffb53215a66d9f08721",
+  "training_script_sha256": "2b7b273d90128baff9eb2c547e8ca9a34eabc398b4959221274562e8c14875a4",
+  "common_weight_code_sha256": "358c32d0e6beda27a68368f13b93f8b761cf52430383868f76e090f941a73f23",
+  "third_party_manifest_sha256": "2a5c3270629cdb33d5c1d7a94dff214566dbd2ef12895d5826356dcd8a92908f",
+  "torch_version": "2.5.1+cpu",
+  "numpy_version": "1.21.5",
+  "device": "cpu",
+  "not_full_cloud_predictions": true,
+  "scope": "EXPLORATORY_PREVIOUSLY_EXPOSED_SOURCE_LABEL_PROXY"
+}

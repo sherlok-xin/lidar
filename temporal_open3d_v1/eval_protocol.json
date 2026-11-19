@@ -1,0 +1,11 @@
+{
+  "identity": "temporal_open3d_v1; 2026-11-19; preregistered before reading any outcome difference between methods",
+  "seed_order": [197,241,3090],
+  "diagnostic_threshold": 0.5,
+  "risk_threshold": "fit only on ped validation, maximize labeled dust recall among exact score ties satisfying <=1% person and <=1% vehicle false suppression, prefer smallest combined FP on equal recall, then highest threshold; require >=100 labeled points in >=3 frames per entity and >=10% local dust recall. UNAVAILABLE if infeasible.",
+  "primary_contrast": "public static mining evaluation recordings, same centers, same available rows intersect S,T2,TK,TF and N1's eligible window (>=3); paired differences of event AP. Report entire target list using real fallback separately. Two frame difference and joint features compared to control copies, accumulation and availability alone. Fold individual additional control availability into matched contrast.",
+  "meaningful_increment": "descriptive +0.02 absolute event-macro AP averaged over 3 paired seeds, >0 in all three seeds and majority of evaluable recording-level mean differences >0. Require surviving controls to attribute ordered temporal information. No pointwise independence test. Pre-exposed data, exploratory cutoffs.",
+  "practical_filtering": "at frozen validation risk gate, >=+0.05 absolute dust recall on public test and no increase of either entity proxy suppression beyond 1% on separately reported human/vehicle sets. No decision when gate unavailable or denominator absent; no real safety certification.",
+  "scoring": "Exclude code0 from classification counts; predicted/total valid, ignore candidates, temporal support and fallback counted separately. Zero predicted mass/unavailable score is NaN, not negative. AP = stepwise, PR-AUC = trapezoid. Positive-free event AP null and negative FP retained. Common rows by original UID/index.",
+  "strata": "public range in processed coordinates [0,1),[1,2),[2,4),[4,8),[8,infty); local norm [0,8),[8,16),[16,32),[32,infty); current voxel density 0.1 processed units with <=2 and >=8 observed points, not material identity; persistent >=2/3 history comparables inside occupied fine cells, on qualifying current points; vegetation NOT_EVALUATED. No verified physical instances or moving alignment."
+}

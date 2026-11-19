@@ -1,0 +1,43 @@
+{
+  "seed": 20261114,
+  "threads": 4,
+  "B2": {
+    "max_iter": 100,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 50,
+    "l2_regularization": 1.0,
+    "max_bins": 127,
+    "early_stopping": false
+  },
+  "legacy_B2_implementation": "$HISTORICAL_ROOT/dust_learning_phase2/phase2/models.py",
+  "legacy_B2_sha256": "ff0b0c5d5d9de287d6ddb114ba3c47ead2c5c04f85a8aa21d37317cd80332afc",
+  "models": [
+    "L0_C",
+    "L0_D",
+    "L1_no_follow",
+    "L1_follow",
+    "L1b_follow"
+  ],
+  "new_fits": 3,
+  "feature_cache_sha256": "7ba6c700ac46b87dbba47083bb8bda328aeb7f7b9c0f96a86502a83d8a07867c",
+  "shared_block_manifest_sha256": "771c09f1a493d02a86c6db4fcf50d0ffc81f60cbf08ffe0b3e6f29fd50d81439",
+  "new_data_split_sha256": "fe83e1af432e35e64a1048d5e8194ef56ebafe7459711be6b8cf2fa2aa0ab488",
+  "domain_class_balance": "equal loss mass each included domain, then balanced binary classes within domain",
+  "entity_ablation": "factor2 only on local PERSON/VEHICLE reference1/2; then global mean-normalize",
+  "L1_no_follow": "uchile train + pedestrian train; 50722 owned labeled queries",
+  "L1_follow": "same base queries + following train; 63010 owned labeled queries",
+  "risk_policy": "Phase4 local validation query only; point support>=100 AND >=3frames each person/vehicle; empirical1% budget, minimum dustRecall.1; no test tuning",
+  "pointnet_plan": {
+    "epochs": 8,
+    "checkpoint": "last fixed epoch, no evaluation selection",
+    "models": [
+      "L2_base",
+      "L3_entity"
+    ],
+    "same_queries_context_and_base_weights": true
+  },
+  "scope": "EXPLORATORY_PREVIOUSLY_EXPOSED_SOURCE_LABEL_PROXY",
+  "full_cloud_coverage": false,
+  "old_policy_reused": false
+}
