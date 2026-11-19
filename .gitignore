@@ -1,24 +1,5 @@
-# Public reading snapshot. Deny by default, including all research inputs.
+# This working tree may contain private research data. Publish only these named files.
 *
 !/.gitignore
 !/README.md
-!/temporal_open3d_v1/
-!/temporal_open3d_v1/analysis/
-!/temporal_open3d_v1/tests/
-!/temporal_open3d_v1/data_protocol.py
-!/temporal_open3d_v1/temporal.py
-!/temporal_open3d_v1/probes.py
-!/temporal_open3d_v1/randla_core.py
-!/temporal_open3d_v1/network_probe.py
-!/temporal_open3d_v1/network_train.py
-!/temporal_open3d_v1/evaluate.py
-!/temporal_open3d_v1/window_sensitivity.py
-!/temporal_open3d_v1/eval_protocol.json
-!/temporal_open3d_v1/tests/test_temporal.py
-!/temporal_open3d_v1/tests/test_randla.py
-!/temporal_open3d_v1/tests/test_evaluate.py
-!/temporal_open3d_v1/analysis/increments.csv
-!/temporal_open3d_v1/analysis/recording_macro.csv
-!/temporal_open3d_v1/analysis/summary.json
-!/temporal_open3d_v1/analysis/window_means.csv
-!/temporal_open3d_v1/analysis/risk.csv
+!/public_results.csv

@@ -1,0 +1,7 @@
+method,recording_macro_AP_mean,pooled_F1_at_0.5_mean,seeds,recordings,center_frames,matched_points_per_seed
+S,0.3761,0.5321,3,8,29,1135123
+T2,0.4867,0.5688,3,8,29,1135123
+TK,0.7385,0.6940,3,8,29,1135123
+TF,0.7657,0.7075,3,8,29,1135123
+N0_pair,0.8325,0.8213,3,8,29,1135123
+N1_pair,0.9172,0.8414,3,8,29,1135123
